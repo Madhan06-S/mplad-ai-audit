@@ -8,11 +8,22 @@ from sklearn.metrics.pairwise import cosine_similarity
 class DuplicateDetector:
     """
     Module 1: Duplicate & Similar Work Detector using TF-IDF and Cosine Similarity.
-    Groups comparisons by MP, Constituency, and State to optimize performance.
+    Groups comparisons by (MP, State) to optimize performance.
     """
+    # Domain-specific stop words to prevent boilerplate text from inflating similarity
+    DOMAIN_STOP_WORDS = [
+        "construction", "building", "hall", "community", "road", "village",
+        "tq", "dist", "district", "work", "continued", "room", "halls",
+        "school", "colleges", "sansad", "nidhi", "anushansa", "yojana",
+        "antargat", "kshetr", "vikaas", "installation", "supply", "fitting"
+    ]
+
     def __init__(self, similarity_threshold: float = 0.85):
         self.similarity_threshold = similarity_threshold
-        self.vectorizer = TfidfVectorizer(ngram_range=(1, 2), stop_words='english', min_df=1)
+        # Combine English stop words with domain-specific stop words
+        from sklearn.feature_extraction import text
+        stop_words = list(text.ENGLISH_STOP_WORDS.union(set(self.DOMAIN_STOP_WORDS)))
+        self.vectorizer = TfidfVectorizer(ngram_range=(1, 2), stop_words=stop_words, min_df=1)
 
     @staticmethod
     def clean_text(text: str) -> str:
@@ -28,28 +39,27 @@ class DuplicateDetector:
         s = re.sub(r'\s+', ' ', s).strip()
         return s
 
-    def find_duplicates(self, df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, float]]:
+    def find_duplicates(self, df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, float], dict[str, float]]:
         """
         Performs grouped duplicate detection on the dataset.
         
         Returns:
-            df_pairs: DataFrame of detected duplicate/similar candidate pairs
-            max_sim_dict: Dictionary mapping work_id -> maximum similarity score (0.0 to 1.0)
+            df_pairs: DataFrame of candidate pairs with similarity >= self.similarity_threshold (0.85)
+            dup_sim_dict: Dict mapping work_id -> max similarity for pairs >= 0.85
+            similar_work_dict: Dict mapping work_id -> max similarity for pairs 0.70 <= sim < 0.85
         """
-        print(f"[DuplicateDetector] Starting duplicate detection with similarity_threshold={self.similarity_threshold}")
+        print(f"[DuplicateDetector] Starting duplicate detection with primary threshold={self.similarity_threshold}")
         
-        # Prepare text descriptions
         df_work = df.copy()
         if 'work_description_clean' in df_work.columns:
             df_work['text_to_compare'] = df_work['work_description_clean'].apply(self.clean_text)
         else:
             df_work['text_to_compare'] = df_work['Work description'].fillna(df_work['Work']).apply(self.clean_text)
 
-        # Dictionary to track max similarity per work_id
-        max_sim_dict = {wid: 0.0 for wid in df_work['work_id']}
+        dup_sim_dict = {wid: 0.0 for wid in df_work['work_id']}
+        similar_work_dict = {wid: 0.0 for wid in df_work['work_id']}
         candidate_pairs = []
 
-        # Group by (mp_name, state) first for localized comparison
         groups = df_work.groupby(['mp_name', 'state'])
         print(f"[DuplicateDetector] Comparing across {len(groups)} (MP, State) groups...")
 
@@ -58,7 +68,6 @@ class DuplicateDetector:
                 continue
 
             texts = group['text_to_compare'].tolist()
-            indices = group.index.tolist()
             work_ids = group['work_id'].tolist()
             constituencies = group['constituency'].tolist()
             amounts = group['sanction_amount'].tolist()
@@ -75,14 +84,20 @@ class DuplicateDetector:
                         sim_score = float(sim_matrix[i, j])
                         wid1, wid2 = work_ids[i], work_ids[j]
 
-                        # Track max similarity for both records
-                        if sim_score > max_sim_dict[wid1]:
-                            max_sim_dict[wid1] = sim_score
-                        if sim_score > max_sim_dict[wid2]:
-                            max_sim_dict[wid2] = sim_score
+                        # Track similarity signals cleanly
+                        if sim_score >= 0.85:
+                            if sim_score > dup_sim_dict[wid1]:
+                                dup_sim_dict[wid1] = sim_score
+                            if sim_score > dup_sim_dict[wid2]:
+                                dup_sim_dict[wid2] = sim_score
+                        elif sim_score >= 0.70:
+                            if sim_score > similar_work_dict[wid1]:
+                                similar_work_dict[wid1] = sim_score
+                            if sim_score > similar_work_dict[wid2]:
+                                similar_work_dict[wid2] = sim_score
 
+                        # Store in candidate CSV strictly if >= 0.85
                         if sim_score >= self.similarity_threshold:
-                            # Calculate date delta if dates exist
                             dt1, dt2 = dates[i], dates[j]
                             date_diff = abs((dt2 - dt1).days) if pd.notna(dt1) and pd.notna(dt2) else 9999
                             amt1, amt2 = amounts[i], amounts[j]
@@ -116,13 +131,13 @@ class DuplicateDetector:
             df_pairs = df_pairs.sort_values(by='similarity_score', ascending=False)
             
         print(f"[DuplicateDetector] Identified {len(df_pairs)} duplicate candidate pairs (similarity >= {self.similarity_threshold})")
-        return df_pairs, max_sim_dict
+        return df_pairs, dup_sim_dict, similar_work_dict
 
 if __name__ == "__main__":
     from preprocess import load_and_clean_data
     data_path = os.path.join(os.path.dirname(__file__), "..", "data", "Works Sanctioned (1).csv")
     cleaned_df = load_and_clean_data(data_path)
     detector = DuplicateDetector(similarity_threshold=0.85)
-    df_pairs, max_sim = detector.find_duplicates(cleaned_df)
+    df_pairs, dup_sim, sim_work = detector.find_duplicates(cleaned_df)
     print("Sample duplicate candidate pairs:")
     print(df_pairs[['work_id_1', 'work_id_2', 'similarity_score', 'potential_split_work']].head())

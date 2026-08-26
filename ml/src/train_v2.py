@@ -26,9 +26,6 @@ os.makedirs(OUTPUTS_DIR, exist_ok=True)
 os.makedirs(PLOTS_DIR, exist_ok=True)
 
 def generate_v2_visualizations(df_v2: pd.DataFrame, df_dup: pd.DataFrame, df_util: pd.DataFrame):
-    """
-    Generates required visualization plots for ML V2 pipeline.
-    """
     print("[Visualization V2] Generating V2 plots...")
     plt.style.use('ggplot')
 
@@ -98,10 +95,10 @@ def generate_fund_summary_markdown(df_util: pd.DataFrame):
 | **NORMAL** | 0 – 70% | {alert_counts.get('NORMAL', 0)} | {(alert_counts.get('NORMAL', 0)/total_mps)*100:.1f}% |
 | **MONITOR** | 70 – 90% | {alert_counts.get('MONITOR', 0)} | {(alert_counts.get('MONITOR', 0)/total_mps)*100:.1f}% |
 | **HIGH UTILIZATION** | 90 – 100% | {alert_counts.get('HIGH UTILIZATION', 0)} | {(alert_counts.get('HIGH UTILIZATION', 0)/total_mps)*100:.1f}% |
-| **ALLOCATION EXCEEDED — VERIFY** | > 100% | {alert_counts.get('ALLOCATION EXCEEDED — VERIFY', 0)} | {(alert_counts.get('ALLOCATION EXCEEDED — VERIFY', 0)/total_mps)*100:.1f}% |
+| **POTENTIAL ALLOCATION RECONCILIATION REQUIRED** | > 100% | {alert_counts.get('POTENTIAL ALLOCATION RECONCILIATION REQUIRED', 0)} | {(alert_counts.get('POTENTIAL ALLOCATION RECONCILIATION REQUIRED', 0)/total_mps)*100:.1f}% |
 
 > [!NOTE]
-> Utilization alerts monitor spending velocity and entitlement limits. An allocation alert is a administrative oversight flag, NOT evidence of illegal activity or fraud.
+> **RECONCILIATION NOTE**: The works dataset contains multi-year cumulative recommendations (2024-2027), while allocation files list single-term baseline limits. Fund utilization metrics serve as an administrative velocity tracker, NOT evidence of illegal activity or fraud.
 
 ---
 
@@ -138,9 +135,9 @@ def generate_v2_report(df_v2: pd.DataFrame, df_dup: pd.DataFrame, df_util: pd.Da
 
 ## 1. Executive Summary
 This report presents the execution results of **Phase 2 (ML V2)** for the MPLAD AI Audit system. ML V2 introduces a **Multi-Signal Composite Risk Engine** integrating:
-1. **Module 1**: Duplicate & Similar Work Detection (TF-IDF + Cosine Similarity)
-2. **Module 2**: MP Fund Utilization Tracking & Allocation Limit Alerts
-3. **Module 3**: Composite Risk Scoring Engine (40% V1 Anomaly + 15% Cost + 15% Delay + 15% Duplicate + 15% Utilization)
+1. **Module 1**: Duplicate & Similar Work Detection (TF-IDF + Cosine Similarity with Domain Stop Words)
+2. **Module 2**: MP Fund Utilization Tracking & Non-Accusatory Reconciliation Alerts
+3. **Module 3**: Calibrated Composite Risk Scoring Engine (Max-Boosted 5-Signal Blend)
 
 > [!IMPORTANT]
 > **AUDIT TERMINOLOGY STATEMENT**: All signals identify statistical outliers, potential duplicate candidates, or spending velocity alerts intended to prioritize human audit reviews. No system score constitutes proof of fraud.
@@ -155,7 +152,7 @@ This report presents the execution results of **Phase 2 (ML V2)** for the MPLAD 
 | **Module 1: Duplicate Candidates** | Similarity >= 0.85 Pairs | **{len(df_dup):,} pairs** |
 | **Module 1: Potential Split Works** | Similar & Close in Time/Cost | **{int(df_dup['potential_split_work'].sum()):,} pairs** |
 | **Module 2: MP Matching Success** | Allocation Matching Rate | **{matched_mps} / {total_mps} ({(matched_mps/total_mps)*100:.1f}%)** |
-| **Module 2: Allocation Alerts** | Exceeded (> 100%) / High (90-100%) | **{(df_util['utilization_percentage'] >= 90).sum():,} MPs** |
+| **Module 2: Allocation Alerts** | Monitor (70-90%) / High (>90%) | **{(df_util['utilization_percentage'] >= 70).sum():,} MPs** |
 | **Module 3: Critical Risk (85–100)** | Composite Score | **{risk_counts['Critical']:,} projects** |
 | **Module 3: High Risk (70–84)** | Composite Score | **{risk_counts['High']:,} projects** |
 | **Module 3: Medium Risk (40–69)** | Composite Score | **{risk_counts['Medium']:,} projects** |
@@ -189,7 +186,6 @@ def run_v2_pipeline():
     print("STARTING ML V2 COMPOSITE RISK PIPELINE")
     print("==================================================")
 
-    # 1. Load V1 scored dataset or run V1
     v1_scored_path = os.path.join(OUTPUTS_DIR, "scored_projects.csv")
     if os.path.exists(v1_scored_path):
         df_v1 = pd.read_csv(v1_scored_path)
@@ -200,19 +196,18 @@ def run_v2_pipeline():
         run_v1()
         df_v1 = pd.read_csv(v1_scored_path)
 
-    # Ensure date columns are parsed correctly in df_v1
     df_v1['sanction_dt'] = pd.to_datetime(df_v1['sanction_dt'], errors='coerce')
     df_v1['recommended_dt'] = pd.to_datetime(df_v1['recommended_dt'], errors='coerce')
 
-    # 2. Module 1: Duplicate & Similar Work Detection
+    # Module 1: Duplicate & Similar Work Detection
     dup_detector = DuplicateDetector(similarity_threshold=0.85)
-    df_dup_pairs, max_sim_dict = dup_detector.find_duplicates(df_v1)
+    df_dup_pairs, dup_sim_dict, similar_work_dict = dup_detector.find_duplicates(df_v1)
     
     dup_csv_path = os.path.join(OUTPUTS_DIR, "duplicate_candidates.csv")
     df_dup_pairs.to_csv(dup_csv_path, index=False)
     print(f"[V2 Pipeline] Saved duplicate candidate pairs to {dup_csv_path}")
 
-    # 3. Module 2: MP Fund Utilization Tracking
+    # Module 2: MP Fund Utilization Tracking
     fund_tracker = FundUtilizationTracker()
     df_mp_util, mp_util_scores = fund_tracker.process_fund_utilization(df_v1, AL1_PATH, AL2_PATH)
     
@@ -221,11 +216,10 @@ def run_v2_pipeline():
     print(f"[V2 Pipeline] Saved MP fund utilization to {util_csv_path}")
     generate_fund_summary_markdown(df_mp_util)
 
-    # 4. Module 3: Composite Risk Engine
+    # Module 3: Composite Risk Engine
     risk_engine_v2 = CompositeRiskEngine()
-    df_v2_scored = risk_engine_v2.process_composite_risk(df_v1, max_sim_dict, mp_util_scores)
+    df_v2_scored = risk_engine_v2.process_composite_risk(df_v1, dup_sim_dict, similar_work_dict, mp_util_scores)
 
-    # Save V2 scored outputs
     v2_scored_csv = os.path.join(OUTPUTS_DIR, "v2_scored_projects.csv")
     v2_high_risk_csv = os.path.join(OUTPUTS_DIR, "v2_high_risk_projects.csv")
 
@@ -234,7 +228,8 @@ def run_v2_pipeline():
         'work_description_clean', 'recommended_dt', 'sanction_dt', 'sanction_amount',
         'sanction_delay_days', 'work_status', 'v1_anomaly_score', 'cost_anomaly_score',
         'delay_anomaly_score', 'duplicate_score', 'fund_utilization_score',
-        'composite_risk_score', 'risk_level', 'risk_reasons'
+        'v1_contrib', 'cost_contrib', 'delay_contrib', 'duplicate_contrib', 'fund_contrib',
+        'base_weighted_sum', 'max_signal', 'composite_risk_score', 'risk_level', 'risk_reasons'
     ]
     df_v2_out = df_v2_scored[v2_cols].copy()
     df_v2_out.to_csv(v2_scored_csv, index=False)
@@ -245,7 +240,6 @@ def run_v2_pipeline():
     print(f"[V2 Pipeline] Saved V2 scored projects to {v2_scored_csv}")
     print(f"[V2 Pipeline] Saved V2 high-risk projects ({len(df_v2_high_risk)} records) to {v2_high_risk_csv}")
 
-    # 5. Visualizations & Report
     generate_v2_visualizations(df_v2_out, df_dup_pairs, df_mp_util)
     generate_v2_report(df_v2_out, df_dup_pairs, df_mp_util)
 

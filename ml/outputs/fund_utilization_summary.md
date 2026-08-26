@@ -17,10 +17,10 @@
 | **NORMAL** | 0 – 70% | 488 | 99.8% |
 | **MONITOR** | 70 – 90% | 1 | 0.2% |
 | **HIGH UTILIZATION** | 90 – 100% | 0 | 0.0% |
-| **ALLOCATION EXCEEDED — VERIFY** | > 100% | 0 | 0.0% |
+| **POTENTIAL ALLOCATION RECONCILIATION REQUIRED** | > 100% | 0 | 0.0% |
 
 > [!NOTE]
-> Utilization alerts monitor spending velocity and entitlement limits. An allocation alert is a administrative oversight flag, NOT evidence of illegal activity or fraud.
+> **RECONCILIATION NOTE**: The works dataset contains multi-year cumulative recommendations (2024-2027), while allocation files list single-term baseline limits. Fund utilization metrics serve as an administrative velocity tracker, NOT evidence of illegal activity or fraud.
 
 ---
 

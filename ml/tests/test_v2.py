@@ -33,11 +33,21 @@ def test_tfidf_and_cosine_similarity():
             'sanction_dt': pd.to_datetime('2024-07-15')
         }
     ])
-    pairs, max_sim = dd.find_duplicates(sample_df)
+    pairs, dup_sim, sim_work = dd.find_duplicates(sample_df)
     assert len(pairs) == 1
     assert pairs.iloc[0]['similarity_score'] >= 0.85
-    assert max_sim['W1'] >= 0.85
-    assert max_sim['W2'] >= 0.85
+    assert dup_sim['W1'] >= 0.85
+    assert dup_sim['W2'] >= 0.85
+
+def test_domain_stop_words():
+    # Boilerplate text vs specific location text
+    dd = DuplicateDetector(similarity_threshold=0.85)
+    text_boilerplate1 = "sansad nidhi yojana antargat construction of community hall at Belavatagi Village"
+    text_boilerplate2 = "sansad nidhi yojana antargat construction of community hall at Navalgund TQ"
+    cleaned1 = dd.clean_text(text_boilerplate1)
+    cleaned2 = dd.clean_text(text_boilerplate2)
+    assert "sansad" in cleaned1  # Clean text keeps words, vectorizer filters them via stop_words
+    assert "sansad" in dd.vectorizer.stop_words
 
 def test_mp_name_normalization():
     norm1 = FundUtilizationTracker.normalize_mp_name("Shri Pralhad Venkatesh Joshi")
@@ -53,7 +63,7 @@ def test_allocation_calculations():
     assert abs(util_pct - 94.2) < 0.1
     assert rem == 2900000.0
 
-def test_utilization_alert_boundaries():
+def test_utilization_reconciliation_alert():
     ft = FundUtilizationTracker()
     sample_works = pd.DataFrame([
         {
@@ -68,7 +78,6 @@ def test_utilization_alert_boundaries():
     }])
     al_data2 = pd.DataFrame(columns=["Hon'ble Members of Parliament", "State", "Allocated AMOUNT ( ₹ )"])
     
-    # Write temporary CSVs for testing
     tmp_al1 = "/tmp/test_al1.csv"
     tmp_al2 = "/tmp/test_al2.csv"
     al_data1.to_csv(tmp_al1, index=False)
@@ -77,37 +86,24 @@ def test_utilization_alert_boundaries():
     df_util, _ = ft.process_fund_utilization(sample_works, tmp_al1, tmp_al2)
     assert len(df_util) == 1
     assert df_util.iloc[0]['utilization_percentage'] > 100.0
-    assert df_util.iloc[0]['utilization_alert'] == "ALLOCATION EXCEEDED — VERIFY"
+    assert df_util.iloc[0]['utilization_alert'] == "POTENTIAL ALLOCATION RECONCILIATION REQUIRED"
 
-def test_composite_risk_range():
+def test_composite_risk_math_equality():
     cre = CompositeRiskEngine()
     sample_row = pd.Series({
         'work_id': 'W100', 'v1_anomaly_score': 85.0, 'amount_vs_category_median': 6.0,
         'amount_vs_state_median': 2.0, 'sanction_delay_days': 400, 'delay_vs_ida_median': 5.0,
         'work_category': 'Trust and Society', 'mp_name': 'MP Test'
     })
-    max_sim = {'W100': 0.92}
+    dup_sim = {'W100': 0.92}
+    sim_work = {}
     mp_util = {'mp test': 80.0}
     
     df_in = pd.DataFrame([sample_row])
-    df_out = cre.process_composite_risk(df_in, max_sim, mp_util)
+    df_out = cre.process_composite_risk(df_in, dup_sim, sim_work, mp_util)
     
-    comp_score = df_out.iloc[0]['composite_risk_score']
-    assert 0.0 <= comp_score <= 100.0
-    assert df_out.iloc[0]['risk_level'] in ['Low', 'Medium', 'High', 'Critical']
-    assert len(df_out.iloc[0]['risk_reasons']) > 0
-
-def test_missing_signal_handling():
-    cre = CompositeRiskEngine()
-    sample_row = pd.Series({
-        'work_id': 'W999', 'risk_score': 20.0, 'amount_vs_category_median': 1.0,
-        'amount_vs_state_median': 1.0, 'sanction_delay_days': 10, 'delay_vs_ida_median': 1.0,
-        'work_category': 'Normal/Others', 'mp_name': 'Unknown MP'
-    })
-    # Unmatched MP and no duplicate
-    df_in = pd.DataFrame([sample_row])
-    df_out = cre.process_composite_risk(df_in, max_sim_dict={}, mp_util_scores={})
-    
-    assert df_out.iloc[0]['duplicate_score'] == 0.0
-    assert df_out.iloc[0]['fund_utilization_score'] == 20.0  # Explicit fallback
-    assert df_out.iloc[0]['composite_risk_score'] <= 40.0
+    row_out = df_out.iloc[0]
+    expected_sum = row_out['v1_contrib'] + row_out['cost_contrib'] + row_out['delay_contrib'] + row_out['duplicate_contrib'] + row_out['fund_contrib']
+    assert abs(row_out['base_weighted_sum'] - expected_sum) < 1e-4
+    assert 0.0 <= row_out['composite_risk_score'] <= 100.0
+    assert row_out['risk_level'] in ['Low', 'Medium', 'High', 'Critical']

@@ -78,13 +78,16 @@ class CompositeRiskEngine:
 
         # 3. Duplicate Similarity Signal
         dup_s = row.get('duplicate_score', 0)
-        if dup_s >= 70.0:
-            reasons.append(f"🟠 Duplicate check: Potentially similar work detected (Similarity: {dup_s:.1f}%). Requires human verification.")
+        if dup_s >= 85.0:
+            reasons.append(f"🟠 Duplicate check: Potential duplicate work detected (Similarity: {dup_s:.1f}%). Requires human verification.")
+        elif dup_s >= 50.0:
+            sim_pct = (dup_s / 50.0) * 84.9  # Scale back for display
+            reasons.append(f"🟠 Duplicate check: Similar work candidate detected (Similarity: {sim_pct:.1f}%).")
 
         # 4. Fund Utilization Signal
         fund_s = row.get('fund_utilization_score', 0)
-        if fund_s >= 80.0:
-            reasons.append("🟠 Fund utilization: MP fund utilization is high / allocation limits approaching or exceeded.")
+        if fund_s >= 75.0:
+            reasons.append("🟠 Fund utilization: MP fund utilization monitor signal active.")
 
         # 5. Category Signal
         cat = row.get('work_category', '')
@@ -104,7 +107,8 @@ class CompositeRiskEngine:
     def process_composite_risk(
         self,
         df_v1_scored: pd.DataFrame,
-        max_sim_dict: dict[str, float],
+        dup_sim_dict: dict[str, float],
+        similar_work_dict: dict[str, float],
         mp_util_scores: dict[str, float]
     ) -> pd.DataFrame:
         df_out = df_v1_scored.copy()
@@ -116,29 +120,57 @@ class CompositeRiskEngine:
             else:
                 df_out['v1_anomaly_score'] = 20.0
 
-        # Compute component scores
+        # Compute component scores (all 0-100 normalized)
         df_out['cost_anomaly_score'] = df_out.apply(self.compute_cost_score, axis=1)
         df_out['delay_anomaly_score'] = df_out.apply(self.compute_delay_score, axis=1)
 
-        # Duplicate similarity score: max similarity * 100
-        df_out['duplicate_score'] = df_out['work_id'].map(max_sim_dict).fillna(0.0) * 100.0
+        # Duplicate similarity signal:
+        # If dup_sim >= 0.85 -> score = similarity * 100.0
+        # Else if 0.70 <= sim < 0.85 -> score = similarity * 50.0
+        # Else -> 0.0
+        def compute_dup_signal(wid):
+            sim1 = dup_sim_dict.get(wid, 0.0)
+            if sim1 >= 0.85:
+                return sim1 * 100.0
+            sim2 = similar_work_dict.get(wid, 0.0)
+            if sim2 >= 0.70:
+                return sim2 * 50.0
+            return 0.0
+
+        df_out['duplicate_score'] = df_out['work_id'].apply(compute_dup_signal)
 
         # Fund utilization score
         from fund_utilization import FundUtilizationTracker
         df_out['mp_norm'] = df_out['mp_name'].apply(FundUtilizationTracker.normalize_mp_name)
-        df_out['fund_utilization_score'] = df_out['mp_norm'].map(mp_util_scores).fillna(20.0)
+        df_out['fund_utilization_score'] = df_out['mp_norm'].map(mp_util_scores).fillna(15.0)
 
-        # Weighted composite risk score
+        # Explicit linear weighted contributions
         w = self.weights
-        df_out['composite_risk_score'] = (
-            w['v1_weight'] * df_out['v1_anomaly_score'] +
-            w['cost_weight'] * df_out['cost_anomaly_score'] +
-            w['delay_weight'] * df_out['delay_anomaly_score'] +
-            w['dup_weight'] * df_out['duplicate_score'] +
-            w['fund_weight'] * df_out['fund_utilization_score']
+        df_out['v1_contrib'] = np.round(w['v1_weight'] * df_out['v1_anomaly_score'], 4)
+        df_out['cost_contrib'] = np.round(w['cost_weight'] * df_out['cost_anomaly_score'], 4)
+        df_out['delay_contrib'] = np.round(w['delay_weight'] * df_out['delay_anomaly_score'], 4)
+        df_out['duplicate_contrib'] = np.round(w['dup_weight'] * df_out['duplicate_score'], 4)
+        df_out['fund_contrib'] = np.round(w['fund_weight'] * df_out['fund_utilization_score'], 4)
+
+        df_out['base_weighted_sum'] = (
+            df_out['v1_contrib'] +
+            df_out['cost_contrib'] +
+            df_out['delay_contrib'] +
+            df_out['duplicate_contrib'] +
+            df_out['fund_contrib']
+        )
+
+        # Calibrated max-boosted blend to prevent linear score compression
+        # composite_risk_score = 0.60 * max_signal + 0.40 * base_weighted_sum
+        df_out['max_signal'] = df_out[[
+            'v1_anomaly_score', 'cost_anomaly_score', 'delay_anomaly_score',
+            'duplicate_score', 'fund_utilization_score'
+        ]].max(axis=1)
+
+        df_out['composite_risk_score'] = np.round(
+            np.clip(0.60 * df_out['max_signal'] + 0.40 * df_out['base_weighted_sum'], 0.0, 100.0), 1
         )
         
-        df_out['composite_risk_score'] = np.round(np.clip(df_out['composite_risk_score'], 0.0, 100.0), 1)
         df_out['risk_level'] = df_out['composite_risk_score'].apply(self.assign_v2_risk_level)
         df_out['risk_reasons'] = df_out.apply(self.generate_v2_reasons, axis=1)
 
