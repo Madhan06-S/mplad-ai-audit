@@ -1,0 +1,96 @@
+{
+  "total_idas_analyzed": 655,
+  "high_risk_idas_count": 129,
+  "top_risk_idas": [
+    {
+      "state": "Madhya Pradesh",
+      "ida": "SATNA(DISTRICT COLLECTOR SATNA_IDA)",
+      "total_works": 139,
+      "total_sanction_amount": 27252500.0,
+      "mean_risk_score": 64.81438848920864,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (64.8) is significantly higher than state baseline (41.7). | High concentration of flagged projects (61.2% critical/high risk)."
+    },
+    {
+      "state": "West Bengal",
+      "ida": "North 24 Parganas(DISTRICT MAGISTRATE NORTH TWENTY FOUR PARGANAS_IDA)",
+      "total_works": 134,
+      "total_sanction_amount": 173966209.0,
+      "mean_risk_score": 59.57835820895522,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (59.6) is significantly higher than state baseline (36.0). | High concentration of flagged projects (49.3% critical/high risk)."
+    },
+    {
+      "state": "Kerala",
+      "ida": "KANNUR(DISTRICT COLLECTOR KANNUR_IDA)",
+      "total_works": 87,
+      "total_sanction_amount": 36864105.0,
+      "mean_risk_score": 66.15517241379311,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (66.2) is significantly higher than state baseline (47.4). | High concentration of flagged projects (66.7% critical/high risk)."
+    },
+    {
+      "state": "Madhya Pradesh",
+      "ida": "Khandwa (East Nimar)(DISTRICT COLLECTOR EAST NIMAR_IDA)",
+      "total_works": 86,
+      "total_sanction_amount": 26115367.0,
+      "mean_risk_score": 59.174418604651166,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (59.2) is significantly higher than state baseline (41.7). | High concentration of flagged projects (66.3% critical/high risk)."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "ida": "JALAUN(DISTRICT MAGISTRATE JALAUN_IDA)",
+      "total_works": 115,
+      "total_sanction_amount": 27945000.0,
+      "mean_risk_score": 75.4095652173913,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (75.4) is significantly higher than state baseline (29.0). | High concentration of flagged projects (100.0% critical/high risk)."
+    },
+    {
+      "state": "Maharashtra",
+      "ida": "MUMBAI SUBURBAN(DISTRICT COLLECTOR MUMBAI SUBURBAN_IDA)",
+      "total_works": 75,
+      "total_sanction_amount": 129500000.0,
+      "mean_risk_score": 71.18266666666666,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (71.2) is significantly higher than state baseline (51.4). | High concentration of flagged projects (77.3% critical/high risk)."
+    },
+    {
+      "state": "Gujarat",
+      "ida": "Dahod(DISTRICT COLLECTOR DOHAD_IDA)",
+      "total_works": 123,
+      "total_sanction_amount": 40881038.0,
+      "mean_risk_score": 55.49593495934959,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (55.5) is significantly higher than state baseline (31.5). | High concentration of flagged projects (41.5% critical/high risk)."
+    },
+    {
+      "state": "Kerala",
+      "ida": "KOZHIKODE(DISTRICT COLLECTOR KOZHIKODE_IDA)",
+      "total_works": 128,
+      "total_sanction_amount": 44401335.0,
+      "mean_risk_score": 64.33828125,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (64.3) is significantly higher than state baseline (47.4). | High concentration of flagged projects (60.9% critical/high risk)."
+    },
+    {
+      "state": "Uttar Pradesh",
+      "ida": "BALLIA(DISTRICT MAGISTRAE BALLIA_IDA)",
+      "total_works": 153,
+      "total_sanction_amount": 53988157.0,
+      "mean_risk_score": 48.81830065359477,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (48.8) is significantly higher than state baseline (29.0). | High concentration of flagged projects (26.8% critical/high risk). | Unusually high project concentration (153 works sanctioned)."
+    },
+    {
+      "state": "Madhya Pradesh",
+      "ida": "SHAHDOL(District Collector Shahdol_IDA)",
+      "total_works": 82,
+      "total_sanction_amount": 84611931.0,
+      "mean_risk_score": 62.03048780487805,
+      "geographic_risk_score": 95.0,
+      "geographic_reason": "IDA average risk (62.0) is significantly higher than state baseline (41.7). | High concentration of flagged projects (80.5% critical/high risk)."
+    }
+  ]
+}

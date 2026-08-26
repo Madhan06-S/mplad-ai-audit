@@ -1,0 +1,1249 @@
+project_id,payment_sequence,payment_date,payment_amount,progress_percent,sanction_amount,data_source
+WS/  MP620/2024-2025/133166-Construction of buildings for community cultural activities,1,2024-07-14,149155.5,30,497185.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133166-Construction of buildings for community cultural activities,2,2024-07-19,298311.0,40,497185.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133167-Construction of rooms and halls in school and colleges,1,2025-11-02,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133167-Construction of rooms and halls in school and colleges,2,2025-12-17,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133190-Construction of buildings for community cultural activities,1,2024-11-07,135000.0,30,450000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133190-Construction of buildings for community cultural activities,2,2024-12-22,135000.0,60,450000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133190-Construction of buildings for community cultural activities,3,2025-02-05,180000.0,100,450000.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133191-Construction of buildings for community cultural activities,1,2025-07-13,450000.0,30,1500000.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133191-Construction of buildings for community cultural activities,2,2025-08-27,600000.0,100,1500000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133301-Construction of buildings for community cultural activities,1,2024-10-06,119402.7,30,398009.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133301-Construction of buildings for community cultural activities,2,2024-11-20,119402.7,60,398009.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133301-Construction of buildings for community cultural activities,3,2025-01-04,159203.6,100,398009.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133303-Construction of buildings for community cultural activities,1,2024-09-08,119731.2,30,399104.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133303-Construction of buildings for community cultural activities,2,2024-10-23,119731.2,60,399104.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133303-Construction of buildings for community cultural activities,3,2024-12-07,159641.6,100,399104.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133304-Construction of buildings for community cultural activities,1,2024-10-06,118846.2,30,396154.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133304-Construction of buildings for community cultural activities,2,2024-11-20,118846.2,60,396154.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133304-Construction of buildings for community cultural activities,3,2025-01-04,158461.6,100,396154.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133305-Construction of buildings for community cultural activities,1,2025-07-18,120000.0,30,400000.0,DEMO / SIMULATED DATA
+WS/  MP620/2025-2026/133305-Construction of buildings for community cultural activities,2,2025-09-01,160000.0,100,400000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133306-Construction of buildings for community cultural activities,1,2025-04-28,148688.1,30,495627.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133306-Construction of buildings for community cultural activities,2,2025-06-12,148688.1,60,495627.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133306-Construction of buildings for community cultural activities,3,2025-07-27,198250.8,100,495627.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133307-Construction of buildings for community cultural activities,1,2024-10-01,119686.5,30,398955.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133307-Construction of buildings for community cultural activities,2,2024-11-15,159582.0,100,398955.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133308-Construction of buildings for community cultural activities,1,2024-10-01,119791.2,30,399304.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133308-Construction of buildings for community cultural activities,2,2024-11-15,159721.6,100,399304.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133309-Construction of buildings for community cultural activities,1,2025-04-28,148509.3,30,495031.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133309-Construction of buildings for community cultural activities,2,2025-06-12,148509.3,60,495031.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133309-Construction of buildings for community cultural activities,3,2025-07-27,198012.4,100,495031.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133310-Construction of buildings for community cultural activities,1,2024-10-06,74274.9,30,247583.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133310-Construction of buildings for community cultural activities,2,2024-11-20,99033.2,100,247583.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133311-Construction of buildings for community cultural activities,1,2024-10-06,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133311-Construction of buildings for community cultural activities,2,2024-11-20,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133311-Construction of buildings for community cultural activities,3,2025-01-04,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133312-Construction of buildings for community cultural activities,1,2024-09-08,149427.3,30,498091.0,DEMO / SIMULATED DATA
+WS/  MP620/2024-2025/133312-Construction of buildings for community cultural activities,2,2024-10-23,199236.4,100,498091.0,DEMO / SIMULATED DATA
+"WS/MP418/2024-2025/133409-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-08-28,134438.1,30,448127.0,DEMO / SIMULATED DATA
+"WS/MP418/2024-2025/133409-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-10-12,179250.8,100,448127.0,DEMO / SIMULATED DATA
+WS/MP498/2024-2025/133447-Construction of culverts and bridges,1,2024-09-21,480887.1,30,1602957.0,DEMO / SIMULATED DATA
+WS/MP498/2024-2025/133447-Construction of culverts and bridges,2,2024-11-05,641182.8,100,1602957.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133549-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133549-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-07-10,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133550-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133550-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,73709.1,60,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133550-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-02-19,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133551-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-12-01,72631.5,30,242105.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133551-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-15,72631.5,60,242105.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133551-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-03-01,96842.0,100,242105.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133552-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133552-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-04-21,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133552-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-26,150000.0,40,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133553-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133553-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,98278.8,100,245697.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133554-Construction of shelters for animals,1,2025-12-01,73529.4,30,245098.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133554-Construction of shelters for animals,2,2026-01-15,73529.4,60,245098.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133554-Construction of shelters for animals,3,2026-03-01,98039.2,100,245098.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133556-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133556-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,73709.1,60,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133556-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-02-19,98278.8,100,245697.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133557-Construction of public irrigation facilities,1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133557-Construction of public irrigation facilities,2,2026-04-02,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133558-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133558-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133559-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-12-01,73529.4,30,245098.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133559-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-15,98039.2,100,245098.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133560-Construction of public irrigation facilities,1,2025-12-01,73747.8,30,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133560-Construction of public irrigation facilities,2,2026-01-15,73747.8,60,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133560-Construction of public irrigation facilities,3,2026-03-01,98330.4,100,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133561-Construction of public irrigation facilities,1,2025-12-01,73747.8,30,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133561-Construction of public irrigation facilities,2,2026-01-15,98330.4,100,245826.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133562-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133562-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133563-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133563-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133564-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133564-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-02,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133564-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-05-17,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133565-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133565-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-07-10,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133566-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133566-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133567-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-12-01,73529.4,30,245098.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133567-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-15,73529.4,60,245098.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133567-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-03-01,98039.2,100,245098.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133568-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133568-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,73709.1,60,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133568-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-02-19,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133569-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133569-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-07-10,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133569-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-08-24,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133570-Providing drains and gutters for public drainage,1,2025-05-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133570-Providing drains and gutters for public drainage,2,2025-07-10,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133570-Providing drains and gutters for public drainage,3,2025-08-24,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133571-Providing drains and gutters for public drainage,1,2025-05-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133571-Providing drains and gutters for public drainage,2,2025-07-10,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133571-Providing drains and gutters for public drainage,3,2025-08-24,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133572-Construction of public irrigation facilities,1,2025-12-01,73747.8,30,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133572-Construction of public irrigation facilities,2,2026-01-15,73747.8,60,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133572-Construction of public irrigation facilities,3,2026-03-01,98330.4,100,245826.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133573-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-10-12,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133573-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-10-17,73709.1,60,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133573-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-10-22,147418.2,40,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133574-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-21,73709.1,30,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133574-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-05,98278.8,100,245697.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133575-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133575-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133576-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133576-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133576-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-08-09,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133577-Construction of public irrigation facilities,1,2025-12-01,73747.8,30,245826.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133577-Construction of public irrigation facilities,2,2026-01-15,98330.4,100,245826.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133578-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133578-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133578-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-08-09,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133579-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-18,74248.8,30,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133579-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-02,74248.8,60,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133579-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-02-16,98998.4,100,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133580-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-18,74248.8,30,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133580-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-02,74248.8,60,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133580-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-02-16,98998.4,100,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133581-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133581-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133582-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133582-Construction of public irrigation facilities,2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133583-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133583-Construction of public irrigation facilities,2,2026-04-12,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133583-Construction of public irrigation facilities,3,2026-05-27,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133584-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133584-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,74787.3,60,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133584-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-08-09,99716.4,100,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133585-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133585-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133586-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133586-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,74787.3,60,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133586-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-08-09,99716.4,100,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133587-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-18,74248.8,30,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133587-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-02,98998.4,100,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133588-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133588-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133589-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133589-Construction of public irrigation facilities,2,2026-04-12,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133589-Construction of public irrigation facilities,3,2026-05-27,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133590-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133590-Construction of public irrigation facilities,2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133591-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133591-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-12,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133591-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-05-27,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133592-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133592-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,99716.4,100,249291.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133593-Construction of public irrigation facilities,1,2026-01-07,105000.0,30,350000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133593-Construction of public irrigation facilities,2,2026-01-12,105000.0,60,350000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133593-Construction of public irrigation facilities,3,2026-01-17,210000.0,40,350000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133594-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133594-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133595-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-11-18,74248.8,30,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133595-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-01-02,98998.4,100,247496.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133596-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-26,90000.0,30,300000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133596-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-12,90000.0,60,300000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133596-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-05-27,120000.0,100,300000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133597-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133597-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,99716.4,100,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133598-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133598-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,99716.4,100,249291.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133599-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133599-Construction of public irrigation facilities,2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133600-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133600-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,99716.4,100,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133601-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-05-11,74787.3,30,249291.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133601-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-25,99716.4,100,249291.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133602-Construction of public irrigation facilities,1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133602-Construction of public irrigation facilities,2,2026-04-12,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133602-Construction of public irrigation facilities,3,2026-05-27,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133603-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-26,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133603-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133604-Construction of public irrigation facilities,1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133604-Construction of public irrigation facilities,2,2026-04-02,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133605-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133605-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",2,2026-04-02,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133605-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",3,2026-05-17,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133606-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-30,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133606-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-14,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133607-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-30,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133607-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-14,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133608-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-30,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133608-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-14,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133609-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133609-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",2,2026-04-02,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2026-2027/133610-Construction of public irrigation facilities,1,2026-08-14,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2026-2027/133610-Construction of public irrigation facilities,2,2026-09-28,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133611-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133611-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-02,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133612-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-30,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133612-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-14,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133612-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-07-29,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133613-Construction of public irrigation facilities,1,2026-01-07,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133613-Construction of public irrigation facilities,2,2026-01-12,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP577/2025-2026/133613-Construction of public irrigation facilities,3,2026-01-17,150000.0,40,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133614-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2026-02-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133614-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2026-04-02,75000.0,60,250000.0,DEMO / SIMULATED DATA
+"WS/MP577/2025-2026/133614-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2026-05-17,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133686-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133686-Construction of rooms and halls in school and colleges,2,2024-10-31,90000.0,60,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133686-Construction of rooms and halls in school and colleges,3,2024-12-15,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133687-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133687-Construction of rooms and halls in school and colleges,2,2024-10-31,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133688-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133688-Construction of rooms and halls in school and colleges,2,2024-10-31,90000.0,60,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133688-Construction of rooms and halls in school and colleges,3,2024-12-15,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133689-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133689-Construction of rooms and halls in school and colleges,2,2024-10-31,90000.0,60,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133689-Construction of rooms and halls in school and colleges,3,2024-12-15,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133690-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133690-Construction of rooms and halls in school and colleges,2,2024-10-31,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133691-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133691-Construction of rooms and halls in school and colleges,2,2024-10-31,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133692-Construction of rooms and halls in school and colleges,1,2024-10-17,89746.5,30,299155.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133692-Construction of rooms and halls in school and colleges,2,2024-12-01,119662.0,100,299155.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133693-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133693-Construction of rooms and halls in school and colleges,2,2024-10-31,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133694-Construction of rooms and halls in school and colleges,1,2024-09-16,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133694-Construction of rooms and halls in school and colleges,2,2024-10-31,90000.0,60,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133694-Construction of rooms and halls in school and colleges,3,2024-12-15,120000.0,100,300000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133695-Construction of rooms and halls in school and colleges,1,2024-10-17,59191.2,30,197304.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133695-Construction of rooms and halls in school and colleges,2,2024-12-01,78921.6,100,197304.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133696-Installing community drinking water plants,1,2024-09-16,25350.0,30,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133696-Installing community drinking water plants,2,2024-10-31,25350.0,60,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133696-Installing community drinking water plants,3,2024-12-15,33800.0,100,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133697-Construction of rooms and halls in school and colleges,1,2024-10-17,89682.0,30,298940.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133697-Construction of rooms and halls in school and colleges,2,2024-12-01,119576.0,100,298940.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133698-Construction of rooms and halls in school and colleges,1,2024-10-17,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133698-Construction of rooms and halls in school and colleges,2,2024-12-01,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133699-Installing community drinking water plants,1,2024-10-17,25350.0,30,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133699-Installing community drinking water plants,2,2024-12-01,25350.0,60,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133699-Installing community drinking water plants,3,2025-01-15,33800.0,100,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133700-Installing community drinking water plants,1,2025-02-15,30000.0,30,100000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133700-Installing community drinking water plants,2,2025-04-01,40000.0,100,100000.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133701-Installing community drinking water plants,1,2024-09-16,25350.0,30,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133701-Installing community drinking water plants,2,2024-10-31,25350.0,60,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133701-Installing community drinking water plants,3,2024-12-15,33800.0,100,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133702-Installing community drinking water plants,1,2024-10-17,25350.0,30,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133702-Installing community drinking water plants,2,2024-12-01,33800.0,100,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133703-Installing community drinking water plants,1,2024-09-16,25350.0,30,84500.0,DEMO / SIMULATED DATA
+WS/MP18152/2024-2025/133703-Installing community drinking water plants,2,2024-10-31,33800.0,100,84500.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133772-Providing drains and gutters for public drainage,1,2025-01-13,67560.0,30,225200.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133772-Providing drains and gutters for public drainage,2,2025-01-18,135120.0,40,225200.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133773-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",1,2025-02-22,98670.0,30,328900.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133773-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",2,2025-04-08,98670.0,60,328900.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133773-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",3,2025-05-23,131560.0,100,328900.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133774-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-02-22,86520.0,30,288400.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133774-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-04-08,86520.0,60,288400.0,DEMO / SIMULATED DATA
+"WS/MP577/2024-2025/133774-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-05-23,115360.0,100,288400.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133775-Construction of public irrigation facilities,1,2025-02-22,87780.0,30,292600.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133775-Construction of public irrigation facilities,2,2025-04-08,117040.0,100,292600.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133776-Construction of public irrigation facilities,1,2025-02-22,86940.0,30,289800.0,DEMO / SIMULATED DATA
+WS/MP577/2024-2025/133776-Construction of public irrigation facilities,2,2025-04-08,115920.0,100,289800.0,DEMO / SIMULATED DATA
+"WS/MP641/2024-2025/133904-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",1,2025-03-07,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP641/2024-2025/133904-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",2,2025-04-21,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+"WS/MP641/2024-2025/133904-Construction of flood control embankments/ protection walls along riverbanks, hilltops, roadsides",3,2025-06-05,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133905-Construction of common work sheds/ common covered sitting area,1,2025-02-19,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133905-Construction of common work sheds/ common covered sitting area,2,2025-04-05,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133905-Construction of common work sheds/ common covered sitting area,3,2025-05-20,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133906-Construction of community centers and community halls,1,2025-02-19,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133906-Construction of community centers and community halls,2,2025-04-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133909-Construction of common work sheds/ common covered sitting area,1,2024-12-06,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133909-Construction of common work sheds/ common covered sitting area,2,2025-01-20,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133910-Construction of common work sheds/ common covered sitting area,1,2024-12-09,60000.0,30,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133910-Construction of common work sheds/ common covered sitting area,2,2025-01-23,60000.0,60,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133910-Construction of common work sheds/ common covered sitting area,3,2025-03-09,80000.0,100,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133911-Construction of community centers and community halls,1,2024-12-05,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133911-Construction of community centers and community halls,2,2025-01-19,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133911-Construction of community centers and community halls,3,2025-03-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133912-Construction of community centers and community halls,1,2024-12-06,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133912-Construction of community centers and community halls,2,2025-01-20,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133913-Construction of common work sheds/ common covered sitting area,1,2025-05-11,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133913-Construction of common work sheds/ common covered sitting area,2,2025-06-25,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133919-Construction of common work sheds/ common covered sitting area,1,2025-02-01,60000.0,30,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133919-Construction of common work sheds/ common covered sitting area,2,2025-03-18,80000.0,100,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2025-2026/133920-Construction of community centers and community halls,1,2025-06-26,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2025-2026/133920-Construction of community centers and community halls,2,2025-08-10,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2025-2026/133920-Construction of community centers and community halls,3,2025-09-24,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2025-2026/133921-Construction of community centers and community halls,1,2025-06-19,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2025-2026/133921-Construction of community centers and community halls,2,2025-08-03,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133929-Construction of additional rooms and halls in the existing public and community building,1,2025-05-11,60000.0,30,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133929-Construction of additional rooms and halls in the existing public and community building,2,2025-06-25,60000.0,60,200000.0,DEMO / SIMULATED DATA
+WS/MP641/2024-2025/133929-Construction of additional rooms and halls in the existing public and community building,3,2025-08-09,80000.0,100,200000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133940-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133940-Construction of bus-sheds or bus-stops,2,2025-05-22,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133941-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133941-Construction of bus-sheds or bus-stops,2,2025-05-22,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133944-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133944-Construction of bus-sheds or bus-stops,2,2025-05-22,435300.0,60,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133944-Construction of bus-sheds or bus-stops,3,2025-07-06,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133945-Construction of bus-sheds or bus-stops,1,2025-02-26,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133945-Construction of bus-sheds or bus-stops,2,2025-03-03,870600.0,40,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133946-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133946-Construction of bus-sheds or bus-stops,2,2025-05-22,435300.0,60,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133946-Construction of bus-sheds or bus-stops,3,2025-07-06,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133947-Street lights,1,2025-04-26,298200.0,30,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133947-Street lights,2,2025-06-10,397600.0,100,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133949-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133949-Construction of bus-sheds or bus-stops,2,2025-05-22,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133955-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133955-Construction of bus-sheds or bus-stops,2,2025-05-22,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133959-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133959-Construction of bus-sheds or bus-stops,2,2025-05-22,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133960-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133960-Construction of bus-sheds or bus-stops,2,2025-05-22,435300.0,60,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133960-Construction of bus-sheds or bus-stops,3,2025-07-06,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133961-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133961-Construction of rainwater harvesting structures,2,2024-11-18,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133962-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133962-Construction of rainwater harvesting structures,2,2024-11-18,328800.0,60,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133962-Construction of rainwater harvesting structures,3,2025-01-02,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133963-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133963-Construction of rainwater harvesting structures,2,2024-11-18,328800.0,60,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133963-Construction of rainwater harvesting structures,3,2025-01-02,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133964-Construction of bus-sheds or bus-stops,1,2025-04-07,435300.0,30,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133964-Construction of bus-sheds or bus-stops,2,2025-05-22,435300.0,60,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133964-Construction of bus-sheds or bus-stops,3,2025-07-06,580400.0,100,1451000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133965-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133965-Construction of rainwater harvesting structures,2,2024-11-18,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133966-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133966-Construction of rainwater harvesting structures,2,2024-11-18,328800.0,60,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133966-Construction of rainwater harvesting structures,3,2025-01-02,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133967-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133967-Construction of rainwater harvesting structures,2,2024-11-18,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133968-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133968-Construction of rainwater harvesting structures,2,2024-11-18,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133969-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133969-Construction of rainwater harvesting structures,2,2024-11-18,328800.0,60,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133969-Construction of rainwater harvesting structures,3,2025-01-02,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133970-Construction of rainwater harvesting structures,1,2024-10-04,328800.0,30,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133970-Construction of rainwater harvesting structures,2,2024-11-18,328800.0,60,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133970-Construction of rainwater harvesting structures,3,2025-01-02,438400.0,100,1096000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133971-Installing community drinking water plants,1,2024-12-14,71905.8,30,239686.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133971-Installing community drinking water plants,2,2025-01-28,71905.8,60,239686.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133971-Installing community drinking water plants,3,2025-03-14,95874.4,100,239686.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133973-Street lights,1,2025-04-26,298200.0,30,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133973-Street lights,2,2025-06-10,397600.0,100,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133975-Street lights,1,2025-04-26,298200.0,30,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133975-Street lights,2,2025-06-10,298200.0,60,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133975-Street lights,3,2025-07-25,397600.0,100,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133976-Street lights,1,2025-03-17,298200.0,30,994000.0,DEMO / SIMULATED DATA
+WS/MP423/2024-2025/133976-Street lights,2,2025-03-22,596400.0,40,994000.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134022-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-07,449053.8,30,1496846.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134022-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-22,598738.4,100,1496846.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134023-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-07,448945.2,30,1496484.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134023-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-22,598593.6,100,1496484.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134024-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-07,449245.2,30,1497484.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134024-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-22,449245.2,60,1497484.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134024-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-05,598993.6,100,1497484.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134025-Purchase of furniture and fixtures for educational purposes,1,2025-05-02,269892.0,30,899640.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134025-Purchase of furniture and fixtures for educational purposes,2,2025-06-16,269892.0,60,899640.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134025-Purchase of furniture and fixtures for educational purposes,3,2025-07-31,359856.0,100,899640.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134026-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-13,148539.9,30,495133.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134026-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-27,148539.9,60,495133.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134026-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-13,198053.2,100,495133.0,DEMO / SIMULATED DATA
+WS/MP18032/2025-2026/134031-Construction of buildings for crèches and anganwadies,1,2026-01-06,146128.2,30,487094.0,DEMO / SIMULATED DATA
+WS/MP18032/2025-2026/134031-Construction of buildings for crèches and anganwadies,2,2026-02-20,194837.6,100,487094.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134034-Development of public parks,1,2025-01-13,447489.6,30,1491632.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134034-Development of public parks,2,2025-02-27,447489.6,60,1491632.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134034-Development of public parks,3,2025-04-13,596652.8,100,1491632.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134035-Development of public parks,1,2025-03-03,290096.1,30,966987.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134035-Development of public parks,2,2025-04-17,290096.1,60,966987.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134035-Development of public parks,3,2025-06-01,386794.8,100,966987.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134037-Development of public parks,1,2024-12-01,296301.3,30,987671.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134037-Development of public parks,2,2025-01-15,395068.4,100,987671.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134038-Installing tube-wells and borewells,1,2025-01-23,297474.9,30,991583.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134038-Installing tube-wells and borewells,2,2025-03-09,297474.9,60,991583.0,DEMO / SIMULATED DATA
+WS/MP18032/2024-2025/134038-Installing tube-wells and borewells,3,2025-04-23,396633.2,100,991583.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134039-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-31,149601.6,30,498672.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134039-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-03-17,199468.8,100,498672.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134041-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-23,134100.0,30,447000.0,DEMO / SIMULATED DATA
+"WS/MP18032/2024-2025/134041-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-03-09,178800.0,100,447000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134091-Purchase of vans and buses for educational institutions,1,2024-12-26,375000.0,30,1250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134091-Purchase of vans and buses for educational institutions,2,2025-02-09,375000.0,60,1250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134091-Purchase of vans and buses for educational institutions,3,2025-03-26,500000.0,100,1250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134092-Lighting of public spaces,1,2024-12-26,65075.7,30,216919.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134092-Lighting of public spaces,2,2025-02-09,86767.6,100,216919.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134093-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-12-26,88348.8,30,294496.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134093-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-09,117798.4,100,294496.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134094-Lighting of public spaces,1,2024-12-27,65402.4,30,218008.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134094-Lighting of public spaces,2,2025-02-10,87203.2,100,218008.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134095-Purchase of IT systems, including hardware and software for educational purposes",1,2025-05-11,52960.5,30,176535.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134095-Purchase of IT systems, including hardware and software for educational purposes",2,2025-06-25,70614.0,100,176535.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134096-Lighting of public spaces,1,2024-12-26,64524.3,30,215081.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134096-Lighting of public spaces,2,2025-02-09,86032.4,100,215081.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134100-Lighting of public spaces,1,2024-12-26,65571.0,30,218570.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134100-Lighting of public spaces,2,2025-02-09,87428.0,100,218570.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134101-Lighting of public spaces,1,2024-11-16,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134101-Lighting of public spaces,2,2024-11-21,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134101-Lighting of public spaces,3,2024-11-26,150000.0,40,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134102-Lighting of public spaces,1,2024-12-26,64809.9,30,216033.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134102-Lighting of public spaces,2,2025-02-09,64809.9,60,216033.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134102-Lighting of public spaces,3,2025-03-26,86413.2,100,216033.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134103-Lighting of public spaces,1,2025-01-12,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134103-Lighting of public spaces,2,2025-02-26,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134104-Lighting of public spaces,1,2025-01-12,65908.2,30,219694.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134104-Lighting of public spaces,2,2025-02-26,65908.2,60,219694.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134104-Lighting of public spaces,3,2025-04-12,87877.6,100,219694.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134105-Lighting of public spaces,1,2025-01-12,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134105-Lighting of public spaces,2,2025-02-26,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134105-Lighting of public spaces,3,2025-04-12,100000.0,100,250000.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134106-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-12,86063.7,30,286879.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134106-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-26,86063.7,60,286879.0,DEMO / SIMULATED DATA
+"WS/MP632/2024-2025/134106-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-12,114751.6,100,286879.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134107-Providing supply pipelines for drinking water,1,2025-08-07,60000.0,30,200000.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134107-Providing supply pipelines for drinking water,2,2025-09-21,60000.0,60,200000.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134107-Providing supply pipelines for drinking water,3,2025-11-05,80000.0,100,200000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134123-Construction of rooms and halls in school and colleges,1,2024-10-03,1422056.4,30,4740188.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134123-Construction of rooms and halls in school and colleges,2,2024-11-17,1896075.2,100,4740188.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134136-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-10,391187.7,30,1303959.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134136-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-24,391187.7,60,1303959.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134136-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-10,521583.6,100,1303959.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134137-Construction of buildings for community cultural activities,1,2025-01-06,153687.3,30,512291.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134137-Construction of buildings for community cultural activities,2,2025-02-20,204916.4,100,512291.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134140-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-09-12,88047.6,30,293492.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134140-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-10-27,88047.6,60,293492.0,DEMO / SIMULATED DATA
+"WS/MP345/2024-2025/134140-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2024-12-11,117396.8,100,293492.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134143-Construction of buildings for community cultural activities,1,2024-09-27,354776.4,30,1182588.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134143-Construction of buildings for community cultural activities,2,2024-11-11,354776.4,60,1182588.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134143-Construction of buildings for community cultural activities,3,2024-12-26,473035.2,100,1182588.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134144-Construction of buildings for community cultural activities,1,2024-09-27,101533.2,30,338444.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134144-Construction of buildings for community cultural activities,2,2024-11-11,101533.2,60,338444.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134144-Construction of buildings for community cultural activities,3,2024-12-26,135377.6,100,338444.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134145-Construction of buildings for community cultural activities,1,2024-11-10,29060.1,30,96867.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/134145-Construction of buildings for community cultural activities,2,2024-12-25,38746.8,100,96867.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134222-Construction of boundary walls of existing public and community buildings,1,2024-11-09,745823.7,30,2486079.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134222-Construction of boundary walls of existing public and community buildings,2,2024-12-24,994431.6,100,2486079.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134223-Construction of boundary walls of existing public and community buildings,1,2024-11-24,747990.6,30,2493302.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134223-Construction of boundary walls of existing public and community buildings,2,2025-01-08,747990.6,60,2493302.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134223-Construction of boundary walls of existing public and community buildings,3,2025-02-22,997320.8,100,2493302.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134224-Construction of boundary walls of existing public and community buildings,1,2024-11-09,744320.1,30,2481067.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134224-Construction of boundary walls of existing public and community buildings,2,2024-12-24,992426.8,100,2481067.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134225-Construction of boundary walls of existing public and community buildings,1,2024-11-24,744623.7,30,2482079.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134225-Construction of boundary walls of existing public and community buildings,2,2025-01-08,744623.7,60,2482079.0,DEMO / SIMULATED DATA
+WS/MP18182/2024-2025/134225-Construction of boundary walls of existing public and community buildings,3,2025-02-22,992831.6,100,2482079.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134321-Construction of water tanks,1,2026-04-03,163500.0,30,545000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134321-Construction of water tanks,2,2026-05-18,163500.0,60,545000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134321-Construction of water tanks,3,2026-07-02,218000.0,100,545000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134322-Construction of community centers and community halls,1,2025-06-22,149700.0,30,499000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134322-Construction of community centers and community halls,2,2025-08-06,199600.0,100,499000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134323-Installation of multi-gym equipment,1,2025-05-13,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18067/2025-2026/134323-Installation of multi-gym equipment,2,2025-05-18,180000.0,40,300000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134327-Street lights,1,2024-11-01,103942.5,30,346475.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134327-Street lights,2,2024-12-16,103942.5,60,346475.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134327-Street lights,3,2025-01-30,138590.0,100,346475.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134328-Street lights,1,2024-11-01,103703.7,30,345679.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134328-Street lights,2,2024-12-16,103703.7,60,345679.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134328-Street lights,3,2025-01-30,138271.6,100,345679.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134329-Construction of common work sheds/ common covered sitting area,1,2024-11-01,149901.9,30,499673.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134329-Construction of common work sheds/ common covered sitting area,2,2024-12-16,199869.2,100,499673.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134330-Street lights,1,2024-11-01,103943.1,30,346477.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134330-Street lights,2,2024-12-16,138590.8,100,346477.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134331-Construction of common work sheds/ common covered sitting area,1,2024-11-01,149904.0,30,499680.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134331-Construction of common work sheds/ common covered sitting area,2,2024-12-16,199872.0,100,499680.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134332-Construction of community centers and community halls,1,2024-11-01,599653.5,30,1998845.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134332-Construction of community centers and community halls,2,2024-12-16,799538.0,100,1998845.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134334-Providing drains and gutters for public drainage,1,2024-11-01,134980.5,30,449935.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134334-Providing drains and gutters for public drainage,2,2024-12-16,179974.0,100,449935.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134337-Installing community drinking water plants,1,2024-11-01,71631.6,30,238772.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134337-Installing community drinking water plants,2,2024-12-16,71631.6,60,238772.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134337-Installing community drinking water plants,3,2025-01-30,95508.8,100,238772.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134338-Construction of common work sheds/ common covered sitting area,1,2024-11-01,104850.0,30,349500.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134338-Construction of common work sheds/ common covered sitting area,2,2024-12-16,104850.0,60,349500.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134338-Construction of common work sheds/ common covered sitting area,3,2025-01-30,139800.0,100,349500.0,DEMO / SIMULATED DATA
+WS/MP389/2024-2025/134429-Construction of buildings for community cultural activities,1,2025-02-23,677100.0,30,2257000.0,DEMO / SIMULATED DATA
+WS/MP389/2024-2025/134429-Construction of buildings for community cultural activities,2,2025-04-09,677100.0,60,2257000.0,DEMO / SIMULATED DATA
+WS/MP389/2024-2025/134429-Construction of buildings for community cultural activities,3,2025-05-24,902800.0,100,2257000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134434-Construction of buildings for community cultural activities,1,2024-12-20,148088.7,30,493629.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134434-Construction of buildings for community cultural activities,2,2025-02-03,197451.6,100,493629.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134457-Street lights,1,2024-12-28,144282.3,30,480941.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134457-Street lights,2,2025-02-11,144282.3,60,480941.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134457-Street lights,3,2025-03-28,192376.4,100,480941.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134458-Street lights,1,2024-12-28,144311.1,30,481037.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134458-Street lights,2,2025-02-11,192414.8,100,481037.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134459-Street lights,1,2024-12-28,144918.0,30,483060.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134459-Street lights,2,2025-02-11,193224.0,100,483060.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134461-Street lights,1,2024-12-28,144918.0,30,483060.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134461-Street lights,2,2025-02-11,193224.0,100,483060.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134462-Street lights,1,2024-12-28,144874.8,30,482916.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134462-Street lights,2,2025-02-11,193166.4,100,482916.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134463-Street lights,1,2024-12-28,144311.1,30,481037.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134463-Street lights,2,2025-02-11,144311.1,60,481037.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/134463-Street lights,3,2025-03-28,192414.8,100,481037.0,DEMO / SIMULATED DATA
+WS/MP18159/2024-2025/134479-Installing tube-wells and borewells,1,2025-01-17,45000.0,30,150000.0,DEMO / SIMULATED DATA
+WS/MP18159/2024-2025/134479-Installing tube-wells and borewells,2,2025-03-03,60000.0,100,150000.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134588-Purchase Books for Library,1,2025-08-09,15000.0,30,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134588-Purchase Books for Library,2,2025-09-23,15000.0,60,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2025-2026/134588-Purchase Books for Library,3,2025-11-07,20000.0,100,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134589-Purchase of books for public libraries/ digitization of library books,1,2025-01-26,15000.0,30,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134589-Purchase of books for public libraries/ digitization of library books,2,2025-01-31,15000.0,60,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2024-2025/134589-Purchase of books for public libraries/ digitization of library books,3,2025-02-05,30000.0,40,50000.0,DEMO / SIMULATED DATA
+WS/MP632/2026-2027/134591-Purchase of furniture and fixtures for educational purposes,1,2026-08-23,29020.2,30,96734.0,DEMO / SIMULATED DATA
+WS/MP632/2026-2027/134591-Purchase of furniture and fixtures for educational purposes,2,2026-10-07,29020.2,60,96734.0,DEMO / SIMULATED DATA
+WS/MP632/2026-2027/134591-Purchase of furniture and fixtures for educational purposes,3,2026-11-21,38693.6,100,96734.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134629-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-02,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134629-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-17,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134629-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-31,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134630-Construction of boundary walls of existing public and community buildings,1,2024-11-04,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134630-Construction of boundary walls of existing public and community buildings,2,2024-12-19,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134631-Construction of cycle tracks, cycle stand and segregated non-motorized vehicle (NMV) lanes",1,2024-10-19,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134631-Construction of cycle tracks, cycle stand and segregated non-motorized vehicle (NMV) lanes",2,2024-12-03,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134632-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-19,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134632-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-03,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134633-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-19,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134633-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-03,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134633-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-17,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134638-Construction of common work sheds/ common covered sitting area,1,2024-10-07,90000.0,30,300000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134638-Construction of common work sheds/ common covered sitting area,2,2024-11-21,90000.0,60,300000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134638-Construction of common work sheds/ common covered sitting area,3,2025-01-05,120000.0,100,300000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134644-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134644-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134646-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,299865.0,30,999550.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134646-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,399820.0,100,999550.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134649-Construction of culverts and bridges,1,2024-10-18,299661.3,30,998871.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134649-Construction of culverts and bridges,2,2024-12-02,399548.4,100,998871.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134655-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-04,210000.0,30,700000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134655-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-19,210000.0,60,700000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134655-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-02,280000.0,100,700000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134658-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-08,299923.2,30,999744.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134658-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-23,299923.2,60,999744.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134658-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-06,399897.6,100,999744.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134660-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-02,299956.8,30,999856.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134660-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-17,299956.8,60,999856.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134660-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-31,399942.4,100,999856.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134661-Construction of boundary walls of existing public and community buildings,1,2024-12-23,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134661-Construction of boundary walls of existing public and community buildings,2,2025-02-06,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134665-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-12-02,264358.8,30,881196.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134665-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-01-16,352478.4,100,881196.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134666-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-10,299931.6,30,999772.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134666-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-25,399908.8,100,999772.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134667-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-03,360000.0,30,1200000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134667-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-18,360000.0,60,1200000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134667-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-01,480000.0,100,1200000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134668-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-09-30,450000.0,30,1500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134668-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-14,600000.0,100,1500000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134670-Construction of boundary walls of existing public and community buildings,1,2024-11-01,179694.6,30,598982.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134670-Construction of boundary walls of existing public and community buildings,2,2024-12-16,179694.6,60,598982.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/134670-Construction of boundary walls of existing public and community buildings,3,2025-01-30,239592.8,100,598982.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134671-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-08-26,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134671-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-08-31,300000.0,40,500000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134672-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-09-30,297453.3,30,991511.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134672-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-14,297453.3,60,991511.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134672-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2024-12-29,396604.4,100,991511.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134673-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-13,149971.8,30,499906.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134673-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-27,199962.4,100,499906.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134674-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-12,299400.0,30,998000.0,DEMO / SIMULATED DATA
+"WS/MP18278/2024-2025/134674-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-26,399200.0,100,998000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134677-Street lights,1,2025-02-04,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134677-Street lights,2,2025-03-21,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134680-Street lights,1,2025-02-04,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134680-Street lights,2,2025-03-21,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134684-Street lights,1,2025-02-04,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134684-Street lights,2,2025-03-21,130500.0,60,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134684-Street lights,3,2025-05-05,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134687-Street lights,1,2025-03-29,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134687-Street lights,2,2025-05-13,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134688-Street lights,1,2025-03-29,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134688-Street lights,2,2025-05-13,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134689-Street lights,1,2025-03-29,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134689-Street lights,2,2025-05-13,130500.0,60,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2024-2025/134689-Street lights,3,2025-06-27,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP552/2024-2025/134699-Construction of footpaths and pedestrian ways,1,2024-11-10,447426.0,30,1491420.0,DEMO / SIMULATED DATA
+WS/MP552/2024-2025/134699-Construction of footpaths and pedestrian ways,2,2024-12-25,596568.0,100,1491420.0,DEMO / SIMULATED DATA
+WS/MP552/2024-2025/134702-Construction of common work sheds/ common covered sitting area,1,2024-10-26,409051.2,30,1363504.0,DEMO / SIMULATED DATA
+WS/MP552/2024-2025/134702-Construction of common work sheds/ common covered sitting area,2,2024-12-10,545401.6,100,1363504.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/134703-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/134703-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134707-Street lights,1,2026-01-05,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134707-Street lights,2,2026-02-19,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134708-Street lights,1,2025-08-04,130486.8,30,434956.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134708-Street lights,2,2025-09-18,130486.8,60,434956.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134708-Street lights,3,2025-11-02,173982.4,100,434956.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134709-Street lights,1,2025-08-04,130486.8,30,434956.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134709-Street lights,2,2025-09-18,173982.4,100,434956.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134710-Street lights,1,2025-08-16,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134710-Street lights,2,2025-09-30,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134711-Street lights,1,2025-08-16,130500.0,30,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134711-Street lights,2,2025-09-30,130500.0,60,435000.0,DEMO / SIMULATED DATA
+WS/MP508/2025-2026/134711-Street lights,3,2025-11-14,174000.0,100,435000.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/134736-Construction of buildings for multi-gym,1,2025-10-16,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/134736-Construction of buildings for multi-gym,2,2025-11-30,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134737-Setting up public non-conventional energy plants,1,2024-12-02,240000.0,30,800000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134737-Setting up public non-conventional energy plants,2,2025-01-16,320000.0,100,800000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134739-Construction of community centers and community halls,1,2024-12-14,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134739-Construction of community centers and community halls,2,2024-12-19,300000.0,40,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/134740-Construction of community centers and community halls,1,2025-09-18,330000.0,30,1100000.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/134740-Construction of community centers and community halls,2,2025-11-02,440000.0,100,1100000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134741-Construction of boundary walls of existing public and community buildings,1,2024-12-20,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134741-Construction of boundary walls of existing public and community buildings,2,2025-02-03,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134742-Construction of community centers and community halls,1,2025-04-18,330000.0,30,1100000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/134742-Construction of community centers and community halls,2,2025-06-02,440000.0,100,1100000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134780-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134780-Street lights,2,2025-03-09,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134781-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134781-Street lights,2,2025-03-09,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134782-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134782-Street lights,2,2025-03-09,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134783-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134783-Street lights,2,2025-03-09,68233.8,60,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134783-Street lights,3,2025-04-23,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134784-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134784-Street lights,2,2025-03-09,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134785-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134785-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134786-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134786-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134787-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134787-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134788-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134788-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134789-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134789-Street lights,2,2025-03-09,68240.7,60,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134789-Street lights,3,2025-04-23,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134790-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134790-Street lights,2,2025-03-09,68240.7,60,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134790-Street lights,3,2025-04-23,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134791-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134791-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134792-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134792-Street lights,2,2025-03-09,68240.7,60,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134792-Street lights,3,2025-04-23,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134793-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134793-Street lights,2,2025-03-09,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134797-Construction of community centers and community halls,1,2024-10-24,299286.9,30,997623.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134797-Construction of community centers and community halls,2,2024-12-08,399049.2,100,997623.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134798-Construction of community centers and community halls,1,2024-11-17,299636.4,30,998788.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134798-Construction of community centers and community halls,2,2025-01-01,399515.2,100,998788.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134799-Construction of community centers and community halls,1,2024-10-02,299806.8,30,999356.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134799-Construction of community centers and community halls,2,2024-10-07,299806.8,60,999356.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134799-Construction of community centers and community halls,3,2024-10-12,599613.6,40,999356.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134800-Construction of community centers and community halls,1,2024-11-11,299925.9,30,999753.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134800-Construction of community centers and community halls,2,2024-12-26,399901.2,100,999753.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134801-Construction of community centers and community halls,1,2024-11-25,299993.4,30,999978.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134801-Construction of community centers and community halls,2,2025-01-09,299993.4,60,999978.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134801-Construction of community centers and community halls,3,2025-02-23,399991.2,100,999978.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134802-Construction of community centers and community halls,1,2024-11-11,448176.0,30,1493920.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134802-Construction of community centers and community halls,2,2024-12-26,448176.0,60,1493920.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134802-Construction of community centers and community halls,3,2025-02-09,597568.0,100,1493920.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134803-Construction of community centers and community halls,1,2024-11-11,299971.2,30,999904.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134803-Construction of community centers and community halls,2,2024-12-26,399961.6,100,999904.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134804-Construction of community centers and community halls,1,2024-11-17,299968.8,30,999896.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134804-Construction of community centers and community halls,2,2025-01-01,399958.4,100,999896.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134805-Construction of community centers and community halls,1,2024-11-23,299913.3,30,999711.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134805-Construction of community centers and community halls,2,2025-01-07,299913.3,60,999711.0,DEMO / SIMULATED DATA
+WS/MP681/2024-2025/134805-Construction of community centers and community halls,3,2025-02-21,399884.4,100,999711.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134826-Installing community drinking water plants,1,2025-01-23,93722.4,30,312408.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134826-Installing community drinking water plants,2,2025-03-09,93722.4,60,312408.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134826-Installing community drinking water plants,3,2025-04-23,124963.2,100,312408.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134827-Installing community drinking water plants,1,2025-01-23,93117.9,30,310393.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134827-Installing community drinking water plants,2,2025-03-09,93117.9,60,310393.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134827-Installing community drinking water plants,3,2025-04-23,124157.2,100,310393.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134828-Street lights,1,2025-01-23,68240.7,30,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134828-Street lights,2,2025-03-09,68240.7,60,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134828-Street lights,3,2025-04-23,90987.6,100,227469.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134829-Street lights,1,2025-01-23,68233.8,30,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134829-Street lights,2,2025-03-09,90978.4,100,227446.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134837-Street lights,1,2025-05-03,75000.0,30,250000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134837-Street lights,2,2025-06-17,75000.0,60,250000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134837-Street lights,3,2025-08-01,100000.0,100,250000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134838-Street lights,1,2025-05-03,74887.5,30,249625.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/134838-Street lights,2,2025-06-17,99850.0,100,249625.0,DEMO / SIMULATED DATA
+WS/MP492/2024-2025/134981-Construction of bus-sheds or bus-stops,1,2024-10-12,2970000.0,30,9900000.0,DEMO / SIMULATED DATA
+WS/MP492/2024-2025/134981-Construction of bus-sheds or bus-stops,2,2024-11-26,2970000.0,60,9900000.0,DEMO / SIMULATED DATA
+WS/MP492/2024-2025/134981-Construction of bus-sheds or bus-stops,3,2025-01-10,3960000.0,100,9900000.0,DEMO / SIMULATED DATA
+WS/MP492/2024-2025/134984-Lighting of public spaces,1,2024-10-12,11372400.0,30,37908000.0,DEMO / SIMULATED DATA
+WS/MP492/2024-2025/134984-Lighting of public spaces,2,2024-11-26,15163200.0,100,37908000.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135003-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135003-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135004-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135004-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135004-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135005-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135005-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135005-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135006-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135006-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135006-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135007-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135007-Lighting of public spaces,2,2025-11-25,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135008-Lighting of public spaces,1,2025-09-16,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135008-Lighting of public spaces,2,2025-09-21,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135008-Lighting of public spaces,3,2025-09-26,352029.6,40,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135009-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135009-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135009-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135010-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135010-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135010-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135011-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135011-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135012-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135012-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135012-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135013-Construction of buildings for community cultural activities,1,2025-04-27,750000.0,30,2500000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135013-Construction of buildings for community cultural activities,2,2025-06-11,1000000.0,100,2500000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135014-Construction of public libraries and reading rooms,1,2025-04-27,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135014-Construction of public libraries and reading rooms,2,2025-06-11,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135014-Construction of public libraries and reading rooms,3,2025-07-26,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135018-Construction of community centers and community halls,1,2025-04-27,900000.0,30,3000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135018-Construction of community centers and community halls,2,2025-06-11,900000.0,60,3000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135018-Construction of community centers and community halls,3,2025-07-26,1200000.0,100,3000000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135019-Construction of buildings for crèches and anganwadies,1,2025-04-27,743843.5,30,2479478.34,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135019-Construction of buildings for crèches and anganwadies,2,2025-06-11,991791.34,100,2479478.34,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135021-Construction of bus-sheds or bus-stops,1,2025-04-27,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135021-Construction of bus-sheds or bus-stops,2,2025-06-11,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP345/2024-2025/135021-Construction of bus-sheds or bus-stops,3,2025-07-26,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135160-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135160-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135160-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135163-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135163-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135163-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135164-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135164-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135164-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135165-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135165-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135165-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135166-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135166-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135166-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135168-Street lights,1,2024-11-09,297900.0,30,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135168-Street lights,2,2024-12-24,297900.0,60,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135168-Street lights,3,2025-02-07,397200.0,100,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135169-Street lights,1,2024-11-09,297900.0,30,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135169-Street lights,2,2024-12-24,397200.0,100,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135170-Street lights,1,2024-11-09,297900.0,30,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135170-Street lights,2,2024-12-24,297900.0,60,993000.0,DEMO / SIMULATED DATA
+WS/MP18278/2024-2025/135170-Street lights,3,2025-02-07,397200.0,100,993000.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135171-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135171-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135171-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135172-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135172-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135172-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135173-Lighting of public spaces,1,2025-09-01,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135173-Lighting of public spaces,2,2025-09-06,352029.6,40,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135174-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135174-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135175-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135175-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135176-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135176-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135176-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135177-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135177-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135177-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135178-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,152694.0,30,508980.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135178-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,203592.0,100,508980.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135179-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135179-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135180-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135180-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135180-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135181-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135181-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135181-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135182-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135182-Lighting of public spaces,2,2025-11-25,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135183-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135183-Lighting of public spaces,2,2025-11-25,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135184-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135184-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135184-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135185-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135185-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135185-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135206-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,116949.0,30,389830.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135206-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,116949.0,60,389830.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135206-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-06,155932.0,100,389830.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135207-Construction of community centers and community halls,1,2025-01-06,121967.4,30,406558.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135207-Construction of community centers and community halls,2,2025-02-20,121967.4,60,406558.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135207-Construction of community centers and community halls,3,2025-04-06,162623.2,100,406558.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135208-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,106769.4,30,355898.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135208-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,106769.4,60,355898.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135208-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-06,142359.2,100,355898.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135209-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,102638.7,30,342129.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135209-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,102638.7,60,342129.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135209-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-06,136851.6,100,342129.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135210-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135210-Lighting of public spaces,2,2025-11-25,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135211-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135211-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135212-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135212-Lighting of public spaces,2,2025-12-10,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135212-Lighting of public spaces,3,2026-01-24,234686.4,100,586716.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135221-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-27,122154.3,30,407181.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135221-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-02,122154.3,60,407181.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135221-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2024-12-07,244308.6,40,407181.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135222-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,121298.4,30,404328.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135222-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,161731.2,100,404328.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135223-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,122065.2,30,406884.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135223-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,162753.6,100,406884.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/135231-Construction of boundary walls of existing public and community buildings,1,2026-04-30,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2025-2026/135231-Construction of boundary walls of existing public and community buildings,2,2026-06-14,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/135232-Construction of community centers and community halls,1,2025-01-06,330000.0,30,1100000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/135232-Construction of community centers and community halls,2,2025-02-20,330000.0,60,1100000.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/135232-Construction of community centers and community halls,3,2025-04-06,440000.0,100,1100000.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135255-Installing community drinking water plants,1,2024-10-14,69618.6,30,232062.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135255-Installing community drinking water plants,2,2024-11-28,92824.8,100,232062.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135256-Installing community drinking water plants,1,2024-10-14,69724.5,30,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135256-Installing community drinking water plants,2,2024-11-28,92966.0,100,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135257-Installing community drinking water plants,1,2024-10-14,69654.0,30,232180.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135257-Installing community drinking water plants,2,2024-11-28,92872.0,100,232180.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135258-Installing community drinking water plants,1,2024-10-14,69724.5,30,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135258-Installing community drinking water plants,2,2024-11-28,92966.0,100,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135259-Installing community drinking water plants,1,2024-10-14,69795.0,30,232650.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135259-Installing community drinking water plants,2,2024-11-28,69795.0,60,232650.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135259-Installing community drinking water plants,3,2025-01-12,93060.0,100,232650.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135260-Installing community drinking water plants,1,2024-10-14,69724.5,30,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135260-Installing community drinking water plants,2,2024-11-28,92966.0,100,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135261-Installing community drinking water plants,1,2024-10-14,69654.0,30,232180.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135261-Installing community drinking water plants,2,2024-11-28,69654.0,60,232180.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135261-Installing community drinking water plants,3,2025-01-12,92872.0,100,232180.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135262-Installing community drinking water plants,1,2024-10-14,69809.1,30,232697.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135262-Installing community drinking water plants,2,2024-11-28,69809.1,60,232697.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135262-Installing community drinking water plants,3,2025-01-12,93078.8,100,232697.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135263-Installing community drinking water plants,1,2024-10-14,69724.5,30,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135263-Installing community drinking water plants,2,2024-11-28,69724.5,60,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135263-Installing community drinking water plants,3,2025-01-12,92966.0,100,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135264-Purchase of mobile water tankers,1,2024-10-14,72316.8,30,241056.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135264-Purchase of mobile water tankers,2,2024-11-28,72316.8,60,241056.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135264-Purchase of mobile water tankers,3,2025-01-12,96422.4,100,241056.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135265-Purchase of mobile water tankers,1,2024-10-14,72249.9,30,240833.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135265-Purchase of mobile water tankers,2,2024-11-28,96333.2,100,240833.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135266-Installing community drinking water plants,1,2024-10-14,69724.5,30,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135266-Installing community drinking water plants,2,2024-11-28,69724.5,60,232415.0,DEMO / SIMULATED DATA
+WS/MP18153/2024-2025/135266-Installing community drinking water plants,3,2025-01-12,92966.0,100,232415.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135267-Installing tube-wells and borewells,1,2024-11-03,1050000.0,30,3500000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135267-Installing tube-wells and borewells,2,2024-12-18,1400000.0,100,3500000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135268-Installing tube-wells and borewells,1,2024-11-09,1050000.0,30,3500000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135268-Installing tube-wells and borewells,2,2024-12-24,1400000.0,100,3500000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135269-Installing tube-wells and borewells,1,2024-11-07,840000.0,30,2800000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135269-Installing tube-wells and borewells,2,2024-12-22,840000.0,60,2800000.0,DEMO / SIMULATED DATA
+WS/MP18250/2024-2025/135269-Installing tube-wells and borewells,3,2025-02-05,1120000.0,100,2800000.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135271-Lighting of public spaces,1,2025-09-16,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135271-Lighting of public spaces,2,2025-09-21,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135271-Lighting of public spaces,3,2025-09-26,352029.6,40,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135272-Lighting of public spaces,1,2025-10-11,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135272-Lighting of public spaces,2,2025-11-25,176014.8,60,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135272-Lighting of public spaces,3,2026-01-09,234686.4,100,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135273-Lighting of public spaces,1,2025-10-26,176014.8,30,586716.0,DEMO / SIMULATED DATA
+WS/MP18271/2025-2026/135273-Lighting of public spaces,2,2025-12-10,234686.4,100,586716.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135279-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,106874.1,30,356247.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135279-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,142498.8,100,356247.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135283-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-01-06,106777.5,30,355925.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135283-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-02-20,106777.5,60,355925.0,DEMO / SIMULATED DATA
+"WS/MP858/2024-2025/135283-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-04-06,142370.0,100,355925.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135386-Street lights,1,2024-10-28,526267.5,30,1754225.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135386-Street lights,2,2024-12-12,526267.5,60,1754225.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135386-Street lights,3,2025-01-26,701690.0,100,1754225.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135387-Street lights,1,2024-10-28,394700.4,30,1315668.0,DEMO / SIMULATED DATA
+WS/MP858/2024-2025/135387-Street lights,2,2024-12-12,526267.2,100,1315668.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135399-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135399-Lighting of public spaces,2,2025-05-19,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135399-Lighting of public spaces,3,2025-07-03,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135400-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135400-Lighting of public spaces,2,2025-05-19,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135401-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135401-Lighting of public spaces,2,2025-05-19,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135401-Lighting of public spaces,3,2025-07-03,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135402-Lighting of public spaces,1,2025-05-03,71100.0,30,237000.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135402-Lighting of public spaces,2,2025-06-17,94800.0,100,237000.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135403-Lighting of public spaces,1,2025-05-03,71100.0,30,237000.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135403-Lighting of public spaces,2,2025-06-17,94800.0,100,237000.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135404-Lighting of public spaces,1,2025-05-03,70894.5,30,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135404-Lighting of public spaces,2,2025-06-17,70894.5,60,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135404-Lighting of public spaces,3,2025-08-01,94526.0,100,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135405-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135405-Lighting of public spaces,2,2025-05-19,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135405-Lighting of public spaces,3,2025-07-03,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135406-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135406-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135407-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135407-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135407-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135408-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135408-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135409-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135409-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135410-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135410-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135410-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135412-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135412-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135412-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135413-Lighting of public spaces,1,2025-03-24,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135413-Lighting of public spaces,2,2025-03-29,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135413-Lighting of public spaces,3,2025-04-03,141740.4,40,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135416-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135416-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135417-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135417-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135417-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135418-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135418-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135418-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135419-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135419-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135420-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135420-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135420-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135422-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135422-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135423-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135423-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135424-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135424-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135425-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135425-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135425-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135428-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135428-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135428-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135430-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135430-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135431-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135431-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135432-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135432-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135434-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135434-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135434-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135435-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135435-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135436-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135436-Lighting of public spaces,2,2025-06-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135437-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135437-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135437-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135440-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135440-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135440-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135442-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135442-Lighting of public spaces,2,2025-05-19,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135443-Lighting of public spaces,1,2025-02-23,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135443-Lighting of public spaces,2,2025-02-28,141740.4,40,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135444-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135444-Lighting of public spaces,2,2025-05-19,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135444-Lighting of public spaces,3,2025-07-03,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135445-Lighting of public spaces,1,2025-04-04,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135445-Lighting of public spaces,2,2025-05-19,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135445-Lighting of public spaces,3,2025-07-03,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2025-2026/135446-Lighting of public spaces,1,2025-12-01,70894.5,30,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2025-2026/135446-Lighting of public spaces,2,2026-01-15,70894.5,60,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2025-2026/135446-Lighting of public spaces,3,2026-03-01,94526.0,100,236315.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135447-Lighting of public spaces,1,2025-04-18,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135447-Lighting of public spaces,2,2025-06-02,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135449-Lighting of public spaces,1,2025-04-18,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135449-Lighting of public spaces,2,2025-06-02,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135449-Lighting of public spaces,3,2025-07-17,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135450-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135450-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135450-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135451-Lighting of public spaces,1,2025-05-03,70870.2,30,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135451-Lighting of public spaces,2,2025-06-17,70870.2,60,236234.0,DEMO / SIMULATED DATA
+WS/MP812/2024-2025/135451-Lighting of public spaces,3,2025-08-01,94493.6,100,236234.0,DEMO / SIMULATED DATA
+"WS/MP431/2024-2025/135463-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-12-13,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP431/2024-2025/135463-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-01-27,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135505-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-04,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135505-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-19,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135506-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-04,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135506-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-19,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135507-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-04,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135507-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-19,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135507-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-02,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135508-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-04,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135508-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-19,300000.0,60,1000000.0,DEMO / SIMULATED DATA
+"WS/MP18336/2024-2025/135508-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-02,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135516-Construction of footpaths and pedestrian ways,1,2026-08-21,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135516-Construction of footpaths and pedestrian ways,2,2026-10-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135520-Construction of community centers and community halls,1,2025-04-19,149420.7,30,498069.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135520-Construction of community centers and community halls,2,2025-06-03,149420.7,60,498069.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135520-Construction of community centers and community halls,3,2025-07-18,199227.6,100,498069.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135523-Construction of community centers and community halls,1,2025-04-19,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135523-Construction of community centers and community halls,2,2025-06-03,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135524-Providing drains and gutters for public drainage,1,2025-04-19,139169.7,30,463899.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135524-Providing drains and gutters for public drainage,2,2025-06-03,185559.6,100,463899.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135525-Providing drains and gutters for public drainage,1,2025-04-19,137224.5,30,457415.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135525-Providing drains and gutters for public drainage,2,2025-06-03,182966.0,100,457415.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135526-Construction of footpaths and pedestrian ways,1,2025-03-01,149975.4,30,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135526-Construction of footpaths and pedestrian ways,2,2025-04-15,149975.4,60,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135526-Construction of footpaths and pedestrian ways,3,2025-05-30,199967.2,100,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135527-Construction of footpaths and pedestrian ways,1,2025-03-01,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135527-Construction of footpaths and pedestrian ways,2,2025-04-15,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135527-Construction of footpaths and pedestrian ways,3,2025-05-30,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135528-Development of playground,1,2025-01-20,149950.2,30,499834.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135528-Development of playground,2,2025-01-25,299900.4,40,499834.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135529-Construction of footpaths and pedestrian ways,1,2025-03-01,149975.4,30,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135529-Construction of footpaths and pedestrian ways,2,2025-04-15,149975.4,60,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135529-Construction of footpaths and pedestrian ways,3,2025-05-30,199967.2,100,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135530-Construction of footpaths and pedestrian ways,1,2025-03-01,135244.5,30,450815.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135530-Construction of footpaths and pedestrian ways,2,2025-04-15,135244.5,60,450815.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135530-Construction of footpaths and pedestrian ways,3,2025-05-30,180326.0,100,450815.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135533-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-03,149999.7,30,499999.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135533-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-05-18,149999.7,60,499999.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135533-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-07-02,199999.6,100,499999.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135534-Construction of community centers and community halls,1,2025-04-03,149865.0,30,499550.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135534-Construction of community centers and community halls,2,2025-05-18,199820.0,100,499550.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135535-Construction of footpaths and pedestrian ways,1,2025-03-29,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135535-Construction of footpaths and pedestrian ways,2,2025-05-13,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135535-Construction of footpaths and pedestrian ways,3,2025-06-27,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135539-Construction of community centers and community halls,1,2025-05-09,149850.0,30,499500.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135539-Construction of community centers and community halls,2,2025-06-23,149850.0,60,499500.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135539-Construction of community centers and community halls,3,2025-08-07,199800.0,100,499500.0,DEMO / SIMULATED DATA
+WS/MP431/2024-2025/135540-Retrofitting in essential lifeline buildings,1,2025-03-16,330000.0,30,1100000.0,DEMO / SIMULATED DATA
+WS/MP431/2024-2025/135540-Retrofitting in essential lifeline buildings,2,2025-04-30,440000.0,100,1100000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135541-Street lights,1,2025-03-01,149999.4,30,499998.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135541-Street lights,2,2025-04-15,199999.2,100,499998.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135546-Construction of foot over bridge (FOB),1,2025-03-01,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135546-Construction of foot over bridge (FOB),2,2025-04-15,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135547-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-03-01,149989.2,30,499964.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135547-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-04-15,149989.2,60,499964.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135547-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-05-30,199985.6,100,499964.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135549-Construction of boundary walls of existing public and community buildings,1,2025-03-01,149816.1,30,499387.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135549-Construction of boundary walls of existing public and community buildings,2,2025-04-15,149816.1,60,499387.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135549-Construction of boundary walls of existing public and community buildings,3,2025-05-30,199754.8,100,499387.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135553-Construction of community centers and community halls,1,2025-03-01,141859.8,30,472866.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135553-Construction of community centers and community halls,2,2025-04-15,189146.4,100,472866.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135555-Development of playground,1,2025-03-01,146549.4,30,488498.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135555-Development of playground,2,2025-04-15,146549.4,60,488498.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135555-Development of playground,3,2025-05-30,195399.2,100,488498.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135558-Construction of community centers and community halls,1,2025-03-01,138082.5,30,460275.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135558-Construction of community centers and community halls,2,2025-04-15,138082.5,60,460275.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135558-Construction of community centers and community halls,3,2025-05-30,184110.0,100,460275.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135559-Construction of footpaths and pedestrian ways,1,2025-03-01,135807.9,30,452693.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135559-Construction of footpaths and pedestrian ways,2,2025-04-15,181077.2,100,452693.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135564-Construction of community centers and community halls,1,2025-02-06,146200.8,30,487336.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135564-Construction of community centers and community halls,2,2025-03-23,146200.8,60,487336.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135564-Construction of community centers and community halls,3,2025-05-07,194934.4,100,487336.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135566-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-02-06,144960.0,30,483200.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135566-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-03-23,193280.0,100,483200.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135568-Street lights,1,2025-02-06,139951.5,30,466505.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135568-Street lights,2,2025-03-23,186602.0,100,466505.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135570-Street lights,1,2025-02-06,139951.5,30,466505.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135570-Street lights,2,2025-03-23,186602.0,100,466505.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135572-Development of playground,1,2024-12-28,144945.3,30,483151.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135572-Development of playground,2,2025-01-02,289890.6,40,483151.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135573-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-02-06,145331.7,30,484439.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135573-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-03-23,145331.7,60,484439.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135573-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-05-07,193775.6,100,484439.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135574-Street lights,1,2025-02-06,123583.8,30,411946.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135574-Street lights,2,2025-03-23,123583.8,60,411946.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135574-Street lights,3,2025-05-07,164778.4,100,411946.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135575-Street lights,1,2025-02-06,142339.5,30,474465.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135575-Street lights,2,2025-03-23,142339.5,60,474465.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135575-Street lights,3,2025-05-07,189786.0,100,474465.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135576-Street lights,1,2025-02-06,138593.7,30,461979.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135576-Street lights,2,2025-03-23,138593.7,60,461979.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135576-Street lights,3,2025-05-07,184791.6,100,461979.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135583-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135583-Street lights,2,2025-03-23,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135584-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135584-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135584-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135585-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135585-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135585-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135586-Street lights,1,2025-10-06,117312.9,30,391043.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135586-Street lights,2,2025-11-20,117312.9,60,391043.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135586-Street lights,3,2026-01-04,156417.2,100,391043.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/135587-Construction of common work sheds/ common covered sitting area,1,2024-12-14,79011.3,30,263371.0,DEMO / SIMULATED DATA
+WS/MP18065/2024-2025/135587-Construction of common work sheds/ common covered sitting area,2,2025-01-28,105348.4,100,263371.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135588-Street lights,1,2025-02-06,121604.4,30,405348.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135588-Street lights,2,2025-03-23,162139.2,100,405348.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135589-Development of playground,1,2026-10-02,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135589-Development of playground,2,2026-11-16,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135589-Development of playground,3,2026-12-31,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135590-Construction of additional rooms and halls in the existing public and community building,1,2026-10-02,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135590-Construction of additional rooms and halls in the existing public and community building,2,2026-11-16,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135592-Street lights,1,2025-02-06,121604.4,30,405348.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135592-Street lights,2,2025-03-23,121604.4,60,405348.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135592-Street lights,3,2025-05-07,162139.2,100,405348.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135593-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,135000.0,30,450000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135593-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,135000.0,60,450000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135593-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,180000.0,100,450000.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135594-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-02-06,149927.7,30,499759.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135594-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-03-23,149927.7,60,499759.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135594-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-05-07,199903.6,100,499759.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135595-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,135000.0,30,450000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135595-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,135000.0,60,450000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135595-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,180000.0,100,450000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135596-Street lights,1,2025-02-06,119029.2,30,396764.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135596-Street lights,2,2025-03-23,119029.2,60,396764.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135596-Street lights,3,2025-05-07,158705.6,100,396764.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135597-Street lights,1,2026-08-21,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135597-Street lights,2,2026-10-05,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135597-Street lights,3,2026-11-19,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135598-Street lights,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135598-Street lights,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135599-Street lights,1,2025-04-28,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135599-Street lights,2,2025-05-03,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135599-Street lights,3,2025-05-08,300000.0,40,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135600-Construction of community centers and community halls,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135600-Construction of community centers and community halls,2,2025-07-22,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135600-Construction of community centers and community halls,3,2025-09-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135601-Street lights,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135601-Street lights,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135602-Street lights,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135602-Street lights,2,2025-07-22,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135602-Street lights,3,2025-09-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP826/2025-2026/135603-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP826/2025-2026/135603-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135604-Street lights,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135604-Street lights,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135639-Providing drains and gutters for public drainage,1,2024-10-11,132261.3,30,440871.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135639-Providing drains and gutters for public drainage,2,2024-11-25,132261.3,60,440871.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135639-Providing drains and gutters for public drainage,3,2025-01-09,176348.4,100,440871.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135640-Providing drains and gutters for public drainage,1,2024-10-11,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135640-Providing drains and gutters for public drainage,2,2024-11-25,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135640-Providing drains and gutters for public drainage,3,2025-01-09,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135641-Providing drains and gutters for public drainage,1,2024-10-11,146762.7,30,489209.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135641-Providing drains and gutters for public drainage,2,2024-11-25,146762.7,60,489209.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135641-Providing drains and gutters for public drainage,3,2025-01-09,195683.6,100,489209.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135642-Providing drains and gutters for public drainage,1,2024-10-11,143359.8,30,477866.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135642-Providing drains and gutters for public drainage,2,2024-11-25,191146.4,100,477866.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135643-Providing drains and gutters for public drainage,1,2024-10-11,60000.0,30,200000.0,DEMO / SIMULATED DATA
+WS/MP18006/2024-2025/135643-Providing drains and gutters for public drainage,2,2024-11-25,80000.0,100,200000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135645-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,120000.0,30,400000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135645-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,120000.0,60,400000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135645-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,160000.0,100,400000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135646-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,30000.0,30,100000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135646-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,40000.0,100,100000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135647-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135647-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135648-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135648-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,150000.0,60,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135648-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135649-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135649-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135650-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135650-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135651-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135651-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,150000.0,60,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135651-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135652-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135652-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,150000.0,60,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135652-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135653-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135653-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-11-21,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135654-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-08-28,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135654-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-09-02,150000.0,60,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135654-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2024-09-07,300000.0,40,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135655-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-18,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135655-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-02,150000.0,60,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135655-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-01-16,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135656-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-10-18,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135656-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2024-12-02,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135658-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2024-11-23,600000.0,30,2000000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135658-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-01-07,600000.0,60,2000000.0,DEMO / SIMULATED DATA
+"WS/MP18006/2024-2025/135658-Construction of roads, link roads, pathways or any other road with or without drainage system",3,2025-02-21,800000.0,100,2000000.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135678-Construction of common work sheds/ common covered sitting area,1,2024-11-01,149951.1,30,499837.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135678-Construction of common work sheds/ common covered sitting area,2,2024-12-16,199934.8,100,499837.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135679-Street lights,1,2024-11-01,104989.2,30,349964.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135679-Street lights,2,2024-12-16,104989.2,60,349964.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135679-Street lights,3,2025-01-30,139985.6,100,349964.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135680-Street lights,1,2024-11-01,104952.6,30,349842.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135680-Street lights,2,2024-12-16,104952.6,60,349842.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135680-Street lights,3,2025-01-30,139936.8,100,349842.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135681-Street lights,1,2024-11-01,103956.6,30,346522.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135681-Street lights,2,2024-12-16,138608.8,100,346522.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135682-Street lights,1,2024-11-01,104985.6,30,349952.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135682-Street lights,2,2024-12-16,104985.6,60,349952.0,DEMO / SIMULATED DATA
+WS/MP485/2024-2025/135682-Street lights,3,2025-01-30,139980.8,100,349952.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135683-Construction of community centers and community halls,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135683-Construction of community centers and community halls,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135684-Street lights,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135684-Street lights,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135685-Construction of community centers and community halls,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135685-Construction of community centers and community halls,2,2025-07-22,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135686-Construction of additional rooms and halls in the existing public and community building,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135686-Construction of additional rooms and halls in the existing public and community building,2,2025-07-22,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135686-Construction of additional rooms and halls in the existing public and community building,3,2025-09-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135687-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135687-Street lights,2,2025-03-23,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135688-Street lights,1,2025-03-28,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135688-Street lights,2,2025-05-12,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135688-Street lights,3,2025-06-26,200000.0,100,500000.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135689-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-04-26,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135689-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-06-10,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135690-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135690-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135690-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135692-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135692-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135692-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135693-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135693-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135693-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135694-Construction of boundary walls of existing public and community buildings,1,2025-04-19,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135694-Construction of boundary walls of existing public and community buildings,2,2025-06-03,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135695-Construction of public libraries and reading rooms,1,2025-04-28,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135695-Construction of public libraries and reading rooms,2,2025-05-03,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135695-Construction of public libraries and reading rooms,3,2025-05-08,300000.0,40,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135696-Street lights,1,2026-09-10,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135696-Street lights,2,2026-10-25,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2026-2027/135696-Street lights,3,2026-12-09,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135697-Construction of boundary walls of existing public and community buildings,1,2025-06-07,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135697-Construction of boundary walls of existing public and community buildings,2,2025-07-22,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135697-Construction of boundary walls of existing public and community buildings,3,2025-09-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135699-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135699-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135699-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135700-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135700-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135700-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135701-Construction of additional rooms and halls in the existing public and community building,1,2025-05-23,300000.0,30,1000000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135701-Construction of additional rooms and halls in the existing public and community building,2,2025-07-07,400000.0,100,1000000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135702-Providing drains and gutters for public drainage,1,2025-03-28,282722.7,30,942409.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135702-Providing drains and gutters for public drainage,2,2025-05-12,282722.7,60,942409.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135702-Providing drains and gutters for public drainage,3,2025-06-26,376963.6,100,942409.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135703-Construction of boundary walls of existing public and community buildings,1,2025-04-21,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135703-Construction of boundary walls of existing public and community buildings,2,2025-06-05,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP747/2024-2025/135704-Construction of community centers and community halls,1,2025-01-04,748725.3,30,2495751.0,DEMO / SIMULATED DATA
+WS/MP747/2024-2025/135704-Construction of community centers and community halls,2,2025-02-18,748725.3,60,2495751.0,DEMO / SIMULATED DATA
+WS/MP747/2024-2025/135704-Construction of community centers and community halls,3,2025-04-04,998300.4,100,2495751.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135706-Construction of footpaths and pedestrian ways,1,2025-04-21,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135706-Construction of footpaths and pedestrian ways,2,2025-06-05,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135706-Construction of footpaths and pedestrian ways,3,2025-07-20,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135707-Construction of footpaths and pedestrian ways,1,2025-03-28,138538.5,30,461795.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135707-Construction of footpaths and pedestrian ways,2,2025-05-12,138538.5,60,461795.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135707-Construction of footpaths and pedestrian ways,3,2025-06-26,184718.0,100,461795.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135708-Construction of footpaths and pedestrian ways,1,2025-03-01,149975.4,30,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135708-Construction of footpaths and pedestrian ways,2,2025-04-15,149975.4,60,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135708-Construction of footpaths and pedestrian ways,3,2025-05-30,199967.2,100,499918.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135709-Construction of foot over bridge (FOB),1,2025-03-01,149972.1,30,499907.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135709-Construction of foot over bridge (FOB),2,2025-04-15,199962.8,100,499907.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135710-Development of playground,1,2025-03-01,138819.6,30,462732.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135710-Development of playground,2,2025-04-15,185092.8,100,462732.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135711-Construction of community centers and community halls,1,2025-03-29,149999.7,30,499999.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135711-Construction of community centers and community halls,2,2025-05-13,149999.7,60,499999.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135711-Construction of community centers and community halls,3,2025-06-27,199999.6,100,499999.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135712-Street lights,1,2025-02-06,139951.5,30,466505.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135712-Street lights,2,2025-03-23,186602.0,100,466505.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135713-Construction of roads, link roads, pathways or any other road with or without drainage system",1,2025-03-28,150000.0,30,500000.0,DEMO / SIMULATED DATA
+"WS/MP826/2024-2025/135713-Construction of roads, link roads, pathways or any other road with or without drainage system",2,2025-05-12,200000.0,100,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135714-Construction of additional rooms and halls in the existing public and community building,1,2025-10-09,146332.2,30,487774.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135714-Construction of additional rooms and halls in the existing public and community building,2,2025-11-23,146332.2,60,487774.0,DEMO / SIMULATED DATA
+WS/MP826/2025-2026/135714-Construction of additional rooms and halls in the existing public and community building,3,2026-01-07,195109.6,100,487774.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135715-Construction of rooms and halls in school and colleges,1,2025-03-28,147230.4,30,490768.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135715-Construction of rooms and halls in school and colleges,2,2025-05-12,147230.4,60,490768.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135715-Construction of rooms and halls in school and colleges,3,2025-06-26,196307.2,100,490768.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135716-Street lights,1,2025-02-06,150000.0,30,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135716-Street lights,2,2025-03-23,150000.0,60,500000.0,DEMO / SIMULATED DATA
+WS/MP826/2024-2025/135716-Street lights,3,2025-05-07,200000.0,100,500000.0,DEMO / SIMULATED DATA
