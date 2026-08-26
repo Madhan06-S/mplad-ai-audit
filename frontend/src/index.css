@@ -1,18 +1,19 @@
 @import "leaflet/dist/leaflet.css";
 
 :root {
-  --bg-primary: #060b16;
-  --bg-card: #0d1526;
-  --bg-card-hover: #162036;
-  --border-color: #1e293b;
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
-  --color-primary: #3b82f6;
-  --color-critical: #ef4444;
-  --color-high: #f97316;
-  --color-medium: #f59e0b;
-  --color-low: #10b981;
-  --color-synthetic: #8b5cf6;
+  --bg-primary: #070b14;
+  --bg-sidebar: #0a1020;
+  --bg-card: #0d1525;
+  --bg-card-hover: #141e33;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --text-main: #f5f7fa;
+  --text-muted: #8d98aa;
+  --color-primary: #4f8cff;
+  --color-secondary: #6c63ff;
+  --color-success: #28c76f;
+  --color-warning: #ffb020;
+  --color-high: #ff7a00;
+  --color-critical: #ff4d5e;
 }
 
 body {
@@ -30,20 +31,20 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #060b16;
+  background: #070b14;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: rgba(255, 255, 255, 0.12);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3b82f6;
+  background: #4f8cff;
 }
 
 .real-badge {
-  background-color: rgba(16, 185, 129, 0.15);
-  color: #6ee7b7;
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  background-color: rgba(40, 199, 111, 0.15);
+  color: #28c76f;
+  border: 1px solid rgba(40, 199, 111, 0.3);
   font-size: 0.65rem;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -56,9 +57,9 @@ body {
 }
 
 .synthetic-badge {
-  background-color: rgba(139, 92, 246, 0.15);
-  color: #c4b5fd;
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  background-color: rgba(108, 99, 255, 0.15);
+  color: #a5b4fc;
+  border: 1px solid rgba(108, 99, 255, 0.3);
   font-size: 0.65rem;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -71,38 +72,38 @@ body {
 }
 
 .risk-tag-critical {
-  background-color: rgba(239, 68, 68, 0.2);
-  color: #fca5a5;
-  border: 1px solid rgba(239, 68, 68, 0.5);
+  background-color: rgba(255, 77, 94, 0.2);
+  color: #ff4d5e;
+  border: 1px solid rgba(255, 77, 94, 0.5);
 }
 
 .risk-tag-high {
-  background-color: rgba(249, 115, 22, 0.2);
-  color: #fdba74;
-  border: 1px solid rgba(249, 115, 22, 0.5);
+  background-color: rgba(255, 122, 0, 0.2);
+  color: #ff7a00;
+  border: 1px solid rgba(255, 122, 0, 0.5);
 }
 
 .risk-tag-medium {
-  background-color: rgba(245, 158, 11, 0.2);
-  color: #fde047;
-  border: 1px solid rgba(245, 158, 11, 0.5);
+  background-color: rgba(255, 176, 32, 0.2);
+  color: #ffb020;
+  border: 1px solid rgba(255, 176, 32, 0.5);
 }
 
 .risk-tag-low {
-  background-color: rgba(16, 185, 129, 0.2);
-  color: #6ee7b7;
-  border: 1px solid rgba(16, 185, 129, 0.5);
+  background-color: rgba(40, 199, 111, 0.2);
+  color: #28c76f;
+  border: 1px solid rgba(40, 199, 111, 0.5);
 }
 
-/* Card Glow Effect */
-.card-command {
-  background-color: #0d1526;
-  border: 1px solid #1e293b;
+/* Card Container */
+.card-enterprise {
+  background-color: #0d1525;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 1rem;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6);
   transition: all 0.2s ease-in-out;
 }
-.card-command:hover {
-  border-color: #3b82f6;
-  box-shadow: 0 12px 30px -5px rgba(59, 130, 246, 0.15);
+.card-enterprise:hover {
+  border-color: rgba(79, 140, 255, 0.4);
+  box-shadow: 0 12px 30px -5px rgba(79, 140, 255, 0.15);
 }
