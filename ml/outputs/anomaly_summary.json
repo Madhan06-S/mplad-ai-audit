@@ -1,0 +1,32 @@
+{
+  "total_records": 33000,
+  "total_anomalies": 1650,
+  "anomaly_percentage": 5.0,
+  "risk_levels": {
+    "Low": 31364,
+    "Medium": 1515,
+    "High": 105,
+    "Critical": 16
+  },
+  "top_anomalous_states": {
+    "Uttar Pradesh": 198,
+    "West Bengal": 158,
+    "Odisha": 125,
+    "Karnataka": 123,
+    "Maharashtra": 99
+  },
+  "anomalies_by_category": {
+    "Normal/Others": 997,
+    "Repair and Renovation": 465,
+    "Trust and Society": 187,
+    "Bar and Associations": 1
+  },
+  "anomalies_by_status": {
+    "Work partially Completed": 444,
+    "Physical Inspection": 430,
+    "Sanction": 321,
+    "Vendor Identification": 297,
+    "Work Completed": 134,
+    "Time Estimation": 24
+  }
+}
