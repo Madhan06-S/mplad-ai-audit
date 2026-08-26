@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "total_works": 33000,
+  "synthetic_payments_count": 27172,
+  "synthetic_documents_count": 200,
+  "synthetic_images_count": 200,
+  "geo_locations_count": 33000
+}
