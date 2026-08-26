@@ -1,0 +1,11 @@
+{
+  "total_records": 33000,
+  "total_anomalies": 1650,
+  "risk_levels": {
+    "Low": 31530,
+    "Medium": 1468,
+    "High": 2,
+    "Critical": 0
+  },
+  "top_high_risk_count": 2
+}
