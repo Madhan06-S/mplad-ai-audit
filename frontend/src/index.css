@@ -1,19 +1,18 @@
 @import "leaflet/dist/leaflet.css";
 
 :root {
-  --bg-primary: #070b14;
-  --bg-sidebar: #0a1020;
-  --bg-card: #0d1525;
-  --bg-card-hover: #141e33;
-  --border-subtle: rgba(255, 255, 255, 0.08);
-  --text-main: #f5f7fa;
-  --text-muted: #8d98aa;
-  --color-primary: #4f8cff;
-  --color-secondary: #6c63ff;
-  --color-success: #28c76f;
-  --color-warning: #ffb020;
-  --color-high: #ff7a00;
-  --color-critical: #ff4d5e;
+  --bg-primary: #080c14;
+  --bg-sidebar: #0a0f1d;
+  --bg-card: #0f172a;
+  --bg-card-hover: #1e293b;
+  --border-color: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --color-primary: #3b82f6;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-high: #f97316;
+  --color-critical: #ef4444;
 }
 
 body {
@@ -23,6 +22,7 @@ body {
   color: var(--text-main);
   line-height: 1.5;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Custom Scrollbar */
@@ -31,20 +31,20 @@ body {
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #070b14;
+  background: #080c14;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.12);
+  background: #1e293b;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #4f8cff;
+  background: #3b82f6;
 }
 
 .real-badge {
-  background-color: rgba(40, 199, 111, 0.15);
-  color: #28c76f;
-  border: 1px solid rgba(40, 199, 111, 0.3);
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.25);
   font-size: 0.65rem;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -57,9 +57,9 @@ body {
 }
 
 .synthetic-badge {
-  background-color: rgba(108, 99, 255, 0.15);
-  color: #a5b4fc;
-  border: 1px solid rgba(108, 99, 255, 0.3);
+  background-color: rgba(139, 92, 246, 0.12);
+  color: #c4b5fd;
+  border: 1px solid rgba(139, 92, 246, 0.25);
   font-size: 0.65rem;
   font-weight: 800;
   letter-spacing: 0.05em;
@@ -72,38 +72,38 @@ body {
 }
 
 .risk-tag-critical {
-  background-color: rgba(255, 77, 94, 0.2);
-  color: #ff4d5e;
-  border: 1px solid rgba(255, 77, 94, 0.5);
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.4);
 }
 
 .risk-tag-high {
-  background-color: rgba(255, 122, 0, 0.2);
-  color: #ff7a00;
-  border: 1px solid rgba(255, 122, 0, 0.5);
+  background-color: rgba(249, 115, 22, 0.15);
+  color: #fdba74;
+  border: 1px solid rgba(249, 115, 22, 0.4);
 }
 
 .risk-tag-medium {
-  background-color: rgba(255, 176, 32, 0.2);
-  color: #ffb020;
-  border: 1px solid rgba(255, 176, 32, 0.5);
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #fde047;
+  border: 1px solid rgba(245, 158, 11, 0.4);
 }
 
 .risk-tag-low {
-  background-color: rgba(40, 199, 111, 0.2);
-  color: #28c76f;
-  border: 1px solid rgba(40, 199, 111, 0.5);
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #6ee7b7;
+  border: 1px solid rgba(16, 185, 129, 0.4);
 }
 
-/* Card Container */
+/* Glassmorphism Card System */
 .card-enterprise {
-  background-color: #0d1525;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
   border-radius: 1rem;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
 }
 .card-enterprise:hover {
-  border-color: rgba(79, 140, 255, 0.4);
-  box-shadow: 0 12px 30px -5px rgba(79, 140, 255, 0.15);
+  border-color: rgba(59, 130, 246, 0.4);
+  box-shadow: 0 12px 35px -5px rgba(59, 130, 246, 0.12);
 }
