@@ -74,11 +74,52 @@ def get_network_graph(db: Session = Depends(get_db)):
 
     return {"nodes": nodes, "links": edges}
 
+DISTRICT_COORDINATES = {
+    "DHARWAD": (15.4589, 75.0078),
+    "HAVERI": (14.7946, 75.4011),
+    "ARARIA": (26.1511, 87.5139),
+    "BALURGHAT": (25.2215, 88.7667),
+    "LUCKNOW": (26.8467, 80.9462),
+    "KANPUR NAGAR": (26.4499, 80.3319),
+    "JAIPUR": (26.9124, 75.7873),
+    "KURUKSHETRA": (29.9695, 76.8783),
+    "CUTTACK": (20.4625, 85.8828),
+    "NABARANGPUR": (19.2307, 82.5482),
+    "PATNA": (25.5941, 85.1376),
+    "MUMBAI": (19.0760, 72.8777),
+    "KOLKATA": (22.5726, 88.3639),
+    "CHENNAI": (13.0827, 80.2707),
+    "HYDERABAD": (17.3850, 78.4867),
+    "AHMEDABAD": (23.0225, 72.5714),
+    "BHOPAL": (23.2599, 77.4126),
+    "RANCHI": (23.3441, 85.3096),
+    "GUWAHATI": (26.1445, 91.7362),
+    "SHIMLA": (31.1048, 77.1734),
+}
+
+STATE_CENTROIDS = {
+    "Uttar Pradesh": (26.8467, 80.9462),
+    "Madhya Pradesh": (23.2599, 77.4126),
+    "Gujarat": (23.0225, 72.5714),
+    "West Bengal": (22.5726, 88.3639),
+    "Tamil Nadu": (13.0827, 80.2707),
+    "Karnataka": (15.3173, 75.7139),
+    "Bihar": (25.5941, 85.1376),
+    "Rajasthan": (26.9124, 75.7873),
+    "Maharashtra": (19.0760, 72.8777),
+    "Odisha": (20.4625, 85.8828),
+    "Haryana": (29.9695, 76.8783),
+    "Kerala": (10.8505, 76.2711),
+    "Assam": (26.1445, 91.7362),
+    "Uttarakhand": (30.3165, 78.0322),
+    "Himachal Pradesh": (31.1048, 77.1734),
+    "Andhra Pradesh": (15.9129, 79.7400),
+    "Telangana": (17.3850, 78.4867),
+    "Chhattisgarh": (21.2787, 81.8661),
+}
+
 @router.get("/map/projects")
 def get_map_projects(limit: int = 150, db: Session = Depends(get_db)):
-    # District centroid coordinates lookup table
-    from data.synthetic.generate import DISTRICT_COORDINATES, STATE_CENTROIDS
-
     projects = db.query(Work).filter(Work.risk_level.in_(["Critical", "High", "Medium"])).order_by(Work.composite_risk_score.desc()).limit(limit).all()
 
     map_points = []
