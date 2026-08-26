@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
 import HeroHeader from './components/HeroHeader';
 import KpiBar from './components/KpiBar';
-import RiskOverview3D from './components/RiskOverview3D';
+import RiskAnalyticsSection from './components/RiskAnalyticsSection';
 import QueueTable from './components/QueueTable';
 import InvestigationModal from './components/InvestigationModal';
-import AgencyNetwork3D from './components/3d/AgencyNetwork3D';
+import AgencyNetworkGraph from './components/AgencyNetworkGraph';
 import ProjectMap from './components/ProjectMap';
+import AnalyticsView from './components/AnalyticsView';
+import ReportsView from './components/ReportsView';
 import DisclaimerBanner from './components/DisclaimerBanner';
 import { fetchKpis, fetchInvestigationQueue } from './services/api';
 
@@ -39,43 +42,37 @@ export default function App() {
   };
 
   return (
-    <div className="flex min-h-screen bg-slate-950 text-slate-100 font-sans antialiased">
-      {/* Navigation Sidebar */}
-      <Sidebar
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        currentRole={currentRole}
-        setCurrentRole={setCurrentRole}
-      />
+    <div className="flex min-h-screen bg-[#060b16] text-slate-100 font-sans antialiased">
+      {/* 1. Fixed Left Sidebar (250px) */}
+      <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
 
-      {/* Main Content Area */}
-      <div className="flex-1 flex flex-col min-w-0">
-        <main className="p-6 space-y-6 flex-1 max-w-7xl mx-auto w-full">
-          {/* Hero Header */}
-          <HeroHeader />
+      {/* 2. Main Area (Shifted by 250px) */}
+      <div className="flex-1 ml-[250px] flex flex-col min-w-0">
+        {/* Top Command Bar */}
+        <Navbar currentRole={currentRole} setCurrentRole={setCurrentRole} />
 
-          {/* KPI Command Center Cards */}
-          <KpiBar kpis={kpis} />
-
-          {/* View Tab Routing */}
+        {/* Dashboard Content Container */}
+        <main className="p-6 space-y-6 flex-1 w-full max-w-[1700px] mx-auto">
           {activeTab === 'dashboard' && (
             <div className="space-y-6">
-              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                <div className="lg:col-span-1">
-                  <RiskOverview3D kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
-                </div>
-                <div className="lg:col-span-2">
-                  <AgencyNetwork3D />
-                </div>
-              </div>
+              {/* Hero Header Section */}
+              <HeroHeader />
 
+              {/* 6 KPI Cards Row */}
+              <KpiBar kpis={kpis} />
+
+              {/* Risk Analytics Section (Donut + Signal Matrix) */}
+              <RiskAnalyticsSection kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
+
+              {/* 3D India Risk Intelligence Map */}
+              <ProjectMap onSelectProject={(id) => setSelectedWorkId(id)} />
+
+              {/* Investigation Priority Queue Table */}
               <QueueTable
                 queue={queue}
                 onSelectProject={(id) => setSelectedWorkId(id)}
                 initialRiskFilter={selectedRiskFilter}
               />
-
-              <ProjectMap onSelectProject={(id) => setSelectedWorkId(id)} />
             </div>
           )}
 
@@ -88,7 +85,7 @@ export default function App() {
           )}
 
           {activeTab === 'network' && (
-            <AgencyNetwork3D />
+            <AgencyNetworkGraph />
           )}
 
           {activeTab === 'map' && (
@@ -96,33 +93,19 @@ export default function App() {
           )}
 
           {activeTab === 'analytics' && (
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <RiskOverview3D kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
-              <AgencyNetwork3D />
-            </div>
+            <AnalyticsView kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
           )}
 
           {activeTab === 'reports' && (
-            <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
-              <h2 className="text-base font-bold text-white">Official Audit Reports & Audit Log Export</h2>
-              <p className="text-xs text-slate-400">
-                Select any work from the Investigation Queue to download a verified ReportLab PDF audit report with structured risk factors.
-              </p>
-              <button
-                onClick={() => setActiveTab('queue')}
-                className="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-4 py-2 rounded-lg transition"
-              >
-                Go to Investigation Queue
-              </button>
-            </div>
+            <ReportsView queue={queue} />
           )}
         </main>
 
-        {/* Non-Dismissible Ethics & Disclaimer Banner */}
+        {/* Non-Dismissible Legal & Audit Disclaimer Footer */}
         <DisclaimerBanner />
       </div>
 
-      {/* Full-Screen Project Investigation Command Panel Modal */}
+      {/* Project Investigation Command Center Modal */}
       {selectedWorkId && (
         <InvestigationModal
           workId={selectedWorkId}
