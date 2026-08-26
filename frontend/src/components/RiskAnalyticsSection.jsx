@@ -3,13 +3,13 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import { ShieldAlert, BarChart2, Filter } from 'lucide-react';
 
 export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
-  if (!kpis) return <div className="animate-pulse h-72 bg-[#0d1526] rounded-2xl"></div>;
+  if (!kpis) return <div className="animate-pulse h-72 bg-slate-200 rounded-2xl"></div>;
 
   const data = [
-    { name: 'Critical', value: kpis.critical_risk_count || 24, color: '#ef4444' },
-    { name: 'High', value: kpis.high_risk_count || 6637, color: '#f97316' },
-    { name: 'Medium', value: kpis.medium_risk_count || 8364, color: '#f59e0b' },
-    { name: 'Low', value: kpis.low_risk_count || 17975, color: '#10b981' }
+    { name: 'Critical', value: kpis.critical_risk_count || 24, color: '#dc2626' },
+    { name: 'High', value: kpis.high_risk_count || 6637, color: '#ea580c' },
+    { name: 'Medium', value: kpis.medium_risk_count || 8364, color: '#d97706' },
+    { name: 'Low', value: kpis.low_risk_count || 17975, color: '#16a34a' }
   ];
 
   const totalWorks = kpis.total_works || 33000;
@@ -25,13 +25,13 @@ export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* Left Card: AI Risk Distribution */}
-      <div className="card-command p-5 space-y-4">
-        <div className="flex justify-between items-center border-b border-[#1e293b] pb-3">
+      <div className="card-enterprise p-5 space-y-4">
+        <div className="flex justify-between items-center border-b border-slate-200 pb-3">
           <div>
-            <h3 className="text-sm font-black text-white uppercase tracking-wider flex items-center gap-2">
-              <ShieldAlert className="w-4 h-4 text-amber-400" /> AI RISK DISTRIBUTION
+            <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-2">
+              <ShieldAlert className="w-4 h-4 text-amber-600" /> AI RISK DISTRIBUTION
             </h3>
-            <p className="text-xs text-slate-400">Risk tier population breakdown across 33,000 works</p>
+            <p className="text-xs text-slate-500">Risk tier population breakdown across 33,000 works</p>
           </div>
           <span className="real-badge">DERIVED AI</span>
         </div>
@@ -53,11 +53,11 @@ export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
                   className="cursor-pointer"
                 >
                   {data.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.color} stroke="#060b16" strokeWidth={2} />
+                    <Cell key={`cell-${index}`} fill={entry.color} stroke="#ffffff" strokeWidth={2} />
                   ))}
                 </Pie>
                 <Tooltip
-                  contentStyle={{ backgroundColor: '#060b16', borderColor: '#1e293b', borderRadius: '8px', color: '#f8fafc' }}
+                  contentStyle={{ backgroundColor: '#ffffff', borderColor: '#cbd5e1', borderRadius: '8px', color: '#0f172a' }}
                   formatter={(val, name) => [`${val.toLocaleString()} Works`, `Risk Tier: ${name}`]}
                 />
               </PieChart>
@@ -66,8 +66,8 @@ export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
             {/* Center Label */}
             <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none text-center">
               <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">TOTAL</span>
-              <span className="text-lg font-black text-white tracking-tight">33,000</span>
-              <span className="text-[9px] text-slate-400 font-bold uppercase">PROJECTS</span>
+              <span className="text-lg font-black text-slate-900 tracking-tight">33,000</span>
+              <span className="text-[9px] text-slate-500 font-bold uppercase">PROJECTS</span>
             </div>
           </div>
 
@@ -77,16 +77,16 @@ export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
               <button
                 key={item.name}
                 onClick={() => onSelectRiskLevel(item.name)}
-                className="w-full bg-[#060b16] hover:bg-[#162036] p-2.5 rounded-xl border border-[#1e293b] flex items-center justify-between transition group text-left"
+                className="w-full bg-slate-50 hover:bg-slate-100 p-2.5 rounded-xl border border-slate-200 flex items-center justify-between transition group text-left"
               >
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 rounded-full" style={{ backgroundColor: item.color }} />
-                  <span className="font-bold text-slate-200">{item.name} Risk</span>
+                  <span className="font-bold text-slate-800">{item.name} Risk</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="font-mono font-black text-white">{item.value.toLocaleString()}</span>
-                  <span className="text-[10px] text-slate-400 font-semibold">({((item.value / totalWorks) * 100).toFixed(1)}%)</span>
-                  <Filter className="w-3 h-3 text-slate-500 group-hover:text-blue-400 transition" />
+                  <span className="font-mono font-black text-slate-900">{item.value.toLocaleString()}</span>
+                  <span className="text-[10px] text-slate-500 font-semibold">({((item.value / totalWorks) * 100).toFixed(1)}%)</span>
+                  <Filter className="w-3 h-3 text-slate-400 group-hover:text-[#0f3b60] transition" />
                 </div>
               </button>
             ))}
@@ -95,33 +95,33 @@ export default function RiskAnalyticsSection({ kpis, onSelectRiskLevel }) {
       </div>
 
       {/* Right Card: Risk Signal Matrix */}
-      <div className="card-command p-5 space-y-4">
-        <div className="flex justify-between items-center border-b border-[#1e293b] pb-3">
+      <div className="card-enterprise p-5 space-y-4">
+        <div className="flex justify-between items-center border-b border-slate-200 pb-3">
           <div>
-            <h3 className="text-sm font-black text-white uppercase tracking-wider flex items-center gap-2">
-              <BarChart2 className="w-4 h-4 text-blue-400" /> RISK SIGNAL MATRIX
+            <h3 className="text-sm font-black text-slate-900 uppercase tracking-wider flex items-center gap-2">
+              <BarChart2 className="w-4 h-4 text-[#0f3b60]" /> RISK SIGNAL MATRIX
             </h3>
-            <p className="text-xs text-slate-400">Average signal severity across all 5 AI audit dimensions</p>
+            <p className="text-xs text-slate-500">Average signal severity across all 5 AI audit dimensions</p>
           </div>
           <span className="real-badge">MULTI-SIGNAL DETECTOR</span>
         </div>
 
         <div className="space-y-3 font-mono text-xs">
           {signals.map((sig, i) => (
-            <div key={i} className="bg-[#060b16] p-2.5 rounded-xl border border-[#1e293b] space-y-1">
-              <div className="flex justify-between font-bold text-slate-200">
+            <div key={i} className="bg-slate-50 p-2.5 rounded-xl border border-slate-200 space-y-1">
+              <div className="flex justify-between font-bold text-slate-800">
                 <span>{sig.label} (Weight: {sig.weight})</span>
-                <span className="text-blue-400 font-extrabold">{sig.avgScore.toFixed(1)} / 100</span>
+                <span className="text-[#0f3b60] font-black">{sig.avgScore.toFixed(1)} / 100</span>
               </div>
-              <div className="w-full bg-[#1e293b] h-2 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
                 <div
                   className={`h-full rounded-full transition-all duration-500 ${
-                    sig.avgScore >= 80 ? 'bg-red-500' : sig.avgScore >= 60 ? 'bg-amber-500' : 'bg-blue-500'
+                    sig.avgScore >= 80 ? 'bg-red-600' : sig.avgScore >= 60 ? 'bg-amber-500' : 'bg-blue-600'
                   }`}
                   style={{ width: `${Math.max(5, sig.avgScore)}%` }}
                 />
               </div>
-              <div className="text-[10px] text-slate-400 text-right">{sig.count}</div>
+              <div className="text-[10px] text-slate-500 text-right">{sig.count}</div>
             </div>
           ))}
         </div>
