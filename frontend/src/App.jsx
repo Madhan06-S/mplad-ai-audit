@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import HeroHeader from './components/HeroHeader';
 import KpiBar from './components/KpiBar';
+import RiskOverview3D from './components/RiskOverview3D';
 import QueueTable from './components/QueueTable';
-import ExplainabilityPanel from './components/ExplainabilityPanel';
-import AgencyNetworkGraph from './components/AgencyNetworkGraph';
+import InvestigationModal from './components/InvestigationModal';
+import AgencyNetwork3D from './components/3d/AgencyNetwork3D';
 import ProjectMap from './components/ProjectMap';
 import DisclaimerBanner from './components/DisclaimerBanner';
 import { fetchKpis, fetchInvestigationQueue } from './services/api';
@@ -14,6 +16,7 @@ export default function App() {
   const [kpis, setKpis] = useState(null);
   const [queue, setQueue] = useState([]);
   const [selectedWorkId, setSelectedWorkId] = useState(null);
+  const [selectedRiskFilter, setSelectedRiskFilter] = useState('');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,56 +33,103 @@ export default function App() {
     });
   }, []);
 
+  const handleSelectRiskLevel = (riskLevel) => {
+    setSelectedRiskFilter(riskLevel);
+    setActiveTab('queue');
+  };
+
   return (
-    <div className="min-h-screen flex flex-col bg-slate-900 text-slate-100">
-      {/* Sticky Navigation Header */}
-      <Navbar
+    <div className="flex min-h-screen bg-slate-950 text-slate-100 font-sans antialiased">
+      {/* Navigation Sidebar */}
+      <Sidebar
         activeTab={activeTab}
         setActiveTab={setActiveTab}
         currentRole={currentRole}
         setCurrentRole={setCurrentRole}
       />
 
-      {/* Main Container */}
-      <main className="max-w-7xl mx-auto px-4 py-6 flex-1 w-full space-y-6">
-        {/* KPI Bar rendered on all views */}
-        <KpiBar kpis={kpis} />
+      {/* Main Content Area */}
+      <div className="flex-1 flex flex-col min-w-0">
+        <main className="p-6 space-y-6 flex-1 max-w-7xl mx-auto w-full">
+          {/* Hero Header */}
+          <HeroHeader />
 
-        {/* Tab View Content */}
-        {activeTab === 'dashboard' && (
-          <div className="space-y-6">
-            <QueueTable queue={queue} onSelectProject={(id) => setSelectedWorkId(id)} />
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <AgencyNetworkGraph />
+          {/* KPI Command Center Cards */}
+          <KpiBar kpis={kpis} />
+
+          {/* View Tab Routing */}
+          {activeTab === 'dashboard' && (
+            <div className="space-y-6">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="lg:col-span-1">
+                  <RiskOverview3D kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
+                </div>
+                <div className="lg:col-span-2">
+                  <AgencyNetwork3D />
+                </div>
+              </div>
+
+              <QueueTable
+                queue={queue}
+                onSelectProject={(id) => setSelectedWorkId(id)}
+                initialRiskFilter={selectedRiskFilter}
+              />
+
               <ProjectMap onSelectProject={(id) => setSelectedWorkId(id)} />
             </div>
-          </div>
-        )}
+          )}
 
-        {activeTab === 'queue' && (
-          <QueueTable queue={queue} onSelectProject={(id) => setSelectedWorkId(id)} />
-        )}
+          {activeTab === 'queue' && (
+            <QueueTable
+              queue={queue}
+              onSelectProject={(id) => setSelectedWorkId(id)}
+              initialRiskFilter={selectedRiskFilter}
+            />
+          )}
 
-        {activeTab === 'network' && (
-          <AgencyNetworkGraph />
-        )}
+          {activeTab === 'network' && (
+            <AgencyNetwork3D />
+          )}
 
-        {activeTab === 'map' && (
-          <ProjectMap onSelectProject={(id) => setSelectedWorkId(id)} />
-        )}
-      </main>
+          {activeTab === 'map' && (
+            <ProjectMap onSelectProject={(id) => setSelectedWorkId(id)} />
+          )}
 
-      {/* Inspect Project Explainability Drawer */}
+          {activeTab === 'analytics' && (
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <RiskOverview3D kpis={kpis} onSelectRiskLevel={handleSelectRiskLevel} />
+              <AgencyNetwork3D />
+            </div>
+          )}
+
+          {activeTab === 'reports' && (
+            <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl space-y-4">
+              <h2 className="text-base font-bold text-white">Official Audit Reports & Audit Log Export</h2>
+              <p className="text-xs text-slate-400">
+                Select any work from the Investigation Queue to download a verified ReportLab PDF audit report with structured risk factors.
+              </p>
+              <button
+                onClick={() => setActiveTab('queue')}
+                className="bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold px-4 py-2 rounded-lg transition"
+              >
+                Go to Investigation Queue
+              </button>
+            </div>
+          )}
+        </main>
+
+        {/* Non-Dismissible Ethics & Disclaimer Banner */}
+        <DisclaimerBanner />
+      </div>
+
+      {/* Full-Screen Project Investigation Command Panel Modal */}
       {selectedWorkId && (
-        <ExplainabilityPanel
+        <InvestigationModal
           workId={selectedWorkId}
           onClose={() => setSelectedWorkId(null)}
           userRole={currentRole}
         />
       )}
-
-      {/* Non-Dismissible Ethics & Disclaimer Banner */}
-      <DisclaimerBanner />
     </div>
   );
 }

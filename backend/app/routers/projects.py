@@ -84,8 +84,8 @@ def explain_project_risk_query(work_id: str, db: Session = Depends(get_db)):
     }
 
 
-@router.get("/{work_id}/timeline")
-def get_project_timeline(work_id: str, db: Session = Depends(get_db)):
+@router.get("/timeline")
+def get_project_timeline_query(work_id: str, db: Session = Depends(get_db)):
     work = db.query(Work).filter(Work.work_id == work_id).first()
     if not work:
         raise HTTPException(status_code=404, detail="Project not found")
